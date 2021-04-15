@@ -1,0 +1,153 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title belka-obci&aogon;&zdot;enia
+  meta(name='description' content='The HTML5')
+  meta(name='Maciej_Marosz' content='IT POL')
+  link(rel='stylesheet' href='belka.css')
+  link(rel='shortcut icon' href='#')
+  link(rel='icon' href='data:;base64,iVBORw0KGgo=')
+  script(src='jquery-3.4.1.min.js')
+#a2 Obliczanie  belki &zdot;elbetowej
+br
+.comments podaj dane
+br
+div
+  #entities
+    .ent  hbelki [mm]:
+    .ent  szer-belki [mm]:
+    .ent  otulina [mm]:
+    .ent  b&lstrok;&aogon;d [mm]:
+    .ent  fi [mm]:
+    .ent  fi st. [mm]:
+    .ent  moment zginaj&aogon;cy[MNm]
+  #form1
+    form#formula(action='#')
+      input#hbelki(type='text' name='hbelki' required='' pattern='[0-9]+(\.[0-9]+)?')
+      br
+      input#szbelki(type='text' name='szbelki' required='' pattern='[0-9]+(\.[0-9]+)?')
+      br
+      input#otulina(type='text' name='otulina' required='' pattern='[0-9]+(\.[0-9]+)?')
+      br
+      input#blad(type='text' name='blad' required='' pattern='[0-9]+(\.[0-9]+)?')
+      br
+      input#fi(type='text' name='fi' required='' pattern='[0-9]+(\.[0-9]+)?')
+      br
+      input#fis(type='text' name='fis' required='' pattern='[0-9]+(\.[0-9]+)?')
+      br
+      input#mz(type='text' name='mz' required='' pattern='[0-9]+(\.[0-9]+)?')
+      br
+      input(type='button' onclick='myFunction()' value='OBLICZ')
+div(style='clear:both;')
+#form2
+  | Podaj klas&eogon; betonu wg Eurokodu 2:
+  br
+  form#e2
+    input#01(type='radio' name='klbetonu' value='C12/15')
+    label(for='C12/15') C12/15
+    br
+    input#11(type='radio' name='klbetonu' value='C16/20')
+    label(for='C16/20') C16/20
+    br
+    input#21(type='radio' name='klbetonu' value='C20/25')
+    label(for='C20/25') C20/25
+    br
+    input#31(type='radio' name='klbetonu' value='C25/30')
+    label(for='C25/30') C25/30
+    br
+    input#41(type='radio' name='klbetonu' value='C30/37')
+    label(for='C30/37') C30/37
+    br
+    input#51(type='radio' name='klbetonu' value='C35/45')
+    label(for='C35/45') C35/45
+    br
+    input#61(type='radio' name='klbetonu' value='C40/50')
+    label(for='C40/50') C40/50
+    br
+    input#71(type='radio' name='klbetonu' value='C45/55')
+    label(for='C45/55') C45/55
+    br
+    input#81(type='radio' name='klbetonu' value='C50/60')
+    label(for='C50/60') C50/60
+    br
+    input#91(type='radio' name='klbetonu' value='C55/65')
+    label(for='C55/65') C55/65
+    br
+    input#101(type='radio' name='klbetonu' value='C60/70')
+    label(for='C60/70') C60/70
+    br
+    br
+#form3
+  form#klbetonu
+    input#0(type='radio' name='cechab' value='Wytrzymałość gwarantowana fG c,cube')
+    label(for='klb2') Wytrzyma&lstrok;o&sacute;&cacute; gwarantowana fG c,cube
+    br
+    input#1(type='radio' name='cechab' value='Wytrzymałość charakterystyczna fck')
+    label(for='klb3') Wytrzyma&lstrok;o&sacute;&cacute; charakterystyczna fck
+    br
+    input#2(type='radio' name='cechab' value='Wytrzymałość obliczeniowa fcd(beton zbrojony)')
+    label(for='klb4') Wytrzyma&lstrok;o&sacute;&cacute; obliczeniowa fcd(beton zbrojony)
+    br
+    input#3(type='radio' name='cechab' value='Wytrzymałość obliczeniowa f*cd (beton niezbrojony)')
+    label(for='klb5') Wytrzyma&lstrok;o&sacute;&cacute; obliczeniowa f*cd (beton niezbrojony)
+    br
+    br
+form#klStali
+  input#000(type='radio' name='klS' value='St0S0-b')
+  label(for='St0S0-b') St0S0-b
+  br
+  input#001(type='radio' name='klS' value='St3SX-b')
+  label(for='St3SX-b') St3SX-b
+  br
+  input#002(type='radio' name='klS' value='St3SY-b')
+  label(for='St3SY-b') St3SY-b
+  br
+  input#003(type='radio' name='klS' value='St3S-b')
+  label(for='St3S-b') St3S-b
+  br
+  input#004(type='radio' name='klS' value='PB 240')
+  label(for='PB 240') PB 240
+  br
+  input#005(type='radio' name='klS' value="St50B'")
+  label(for='St50B') St50B
+  br
+  input#006(type='radio' name='klS' value='18G2-b')
+  label(for='18G2-b') 18G2-b
+  br
+  input#007(type='radio' name='klS' value='20G2Y-b')
+  label(for='20G2Y-b') 20G2Y-b
+  br
+  input#008(type='radio' name='klS' value='25G2S')
+  label(for='25G2S') 25G2S
+  br
+  input#009(type='radio' name='klS' value='35G2Y')
+  label(for='35G2Y') 35G2Y
+  br
+  input#0010(type='radio' name='klS' value='20G2Y-b')
+  label(for='20G2Y-b') 20G2Y-b
+  br
+  input#0011(type='radio' name='klS' value='34GS')
+  label(for='34GS') 34GS
+  br
+  input#0012(type='radio' name='klS' value='RB400')
+  label(for='RB400') RB400
+  br
+  input#RB400W(type='radio' name='klS' value='RB400W')
+  label(for='RB400W') RB400W
+  br
+  input#0013(type='radio' name='klS' value='20G2VY-b')
+  label(for='20G2VY-b') 20G2VY-b
+  br
+  input#0014(type='radio' name='klS' value='RB500')
+  label(for='klb5') RB500
+  br
+  input#0015(type='radio' name='klS' value='RB500 W')
+  label(for='RB500 W') RB500 W
+  br
+  br
+.wrapper
+  #wyniki_1
+    a(href='belka-wyniki.html')
+      span Zobacz wyniki
+  #wyniki_2
+    a(href='resetph.html') Wyzeruj dane

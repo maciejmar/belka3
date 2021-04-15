@@ -1,0 +1,29 @@
+doctype html
+html(lang='pl')
+  head
+    meta(charset='utf-8')
+    title belka-obciążenia
+    meta(name='description' content='The HTML5')
+    meta(name='Maciej_Marosz' content='IT POL')
+    link(rel='stylesheet' href='css/belka.css')
+    link(rel='shortcut icon' href='#')
+    link(rel='icon' href='data:;base64,iVBORw0KGgo=')
+    script(src='js/jquery-3.4.1.min.js')
+    
+  body
+  | Podaj typ wytrzymałości:
+  br
+  form#cechabetonu(action='/typwyt' method='POST')
+    input#0(type='radio' name='cechab' value='Wytrzymałość gwarantowana fG c,cube' required)
+    label(for='klb2') Wytrzymałość gwarantowana fG c,cube
+    br
+    input#1(type='radio' name='cechab' value='Wytrzymałość charakterystyczna fck')
+    label(for='klb3') Wytrzymałość charakterystyczna fck
+    br
+    input#2(type='radio' name='cechab' value='Wytrzymałość obliczeniowa fcd(beton zbrojony)')
+    label(for='klb4') Wytrzymałość obliczeniowa fcd(beton zbrojony)
+    br
+    input#3(type='radio' name='cechab' value='Wytrzymałość obliczeniowa f*cd (beton niezbrojony)')
+    label(for='klb5') Wytrzymałość obliczeniowa f*cd (beton niezbrojony)
+    input(type='submit' id='oblicz' name='submit' value='DALEJ')
+    br

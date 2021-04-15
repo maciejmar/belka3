@@ -1,0 +1,41 @@
+<!Doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>MENU-belka-obciążenia </title>
+  <meta name="description" content="The HTML5">
+  <meta name="Maciej_Marosz" content="IT POL">
+
+  <link rel="stylesheet" href="/css/menu.css">
+  <link rel="shortcut icon" href="#">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <script src="scripts/require.js"></script>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="menu.js"></script>
+</head>
+
+<body>
+  <div id="menu-for" class="blink_me"> B E L K A </div>
+  <br><br>
+  <ul>
+    <li>
+      <button id='zginanie' class='menu_buttons'>Obliczanie na moment zginający<span></span></button>
+    </li>
+    <br>
+    <li>
+      <button id='ugiecie' class='menu_buttons'>Ugięcie<span></span></button>
+    </li>
+    <br>
+    <li>
+      <button id='scinanie' class='menu_buttons'>Ścinanie<span></span></button>
+    </li>
+    <br>
+    <li>
+      <button id='rysy' class='menu_buttons'>Rysy<span></span></button>
+    </li>
+  </ul>
+</body>
+
+</html>

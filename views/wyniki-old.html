@@ -1,0 +1,53 @@
+<!Doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <title>Strona wyników </title>
+  <meta name="description" content="The HTML5">
+  <meta name="Maciej_Marosz" content="IT POL">
+
+  <link rel="stylesheet" href="belka.css">
+  <link rel="shortcut icon" href="#">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <script src = "../js/jquery-3.4.1.min.js"></script>
+
+
+</head>
+
+<body>
+  <h1>Wyniki</h1>
+  <div #wyniki_3></div>
+  <script>
+  var wynikiS = '';
+
+   wynikS = 'Parametry:' + '<br>' +
+     'hBelki=' + getCookie(b) + '<br>' +
+     'szBelki=' + getCookie(d) + '<br>' +
+     'otulina=' + getCookie(otulina) + '<br>' +
+     'fi=' + getCookie(fi) + '<br><br>' +
+     'Obliczono:' + '<br>' +
+     'mi=' + getCookie(mi) + '<br>' +
+     'As1=' + getCookie(As1) + '<br>';
+
+     function getCookie(cname) {
+     var name = cname + "=";
+     var decodedCookie = decodeURIComponent(document.cookie);
+     var ca = decodedCookie.split(';');
+     for(var i = 0; i <ca.length; i++) {
+       var c = ca[i];
+       while (c.charAt(0) == ' ') {
+         c = c.substring(1);
+       }
+       if (c.indexOf(name) == 0) {
+         return c.substring(name.length, c.length);
+       }
+     }
+     return "";
+     }
+  </script>
+
+</body>
+
+
+</html>

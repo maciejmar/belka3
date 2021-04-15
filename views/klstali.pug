@@ -1,0 +1,67 @@
+doctype html
+html(lang='pl')
+  head
+    meta(charset='utf-8')
+    title belka-obciążenia
+    meta(name='description' content='The HTML5')
+    meta(name='Maciej_Marosz' content='IT POL')
+    link(rel='stylesheet' href='css/belka.css')
+    link(rel='shortcut icon' href='#')
+    link(rel='icon' href='data:;base64,iVBORw0KGgo=')
+    script(src='js/jquery-3.4.1.min.js')
+    
+  body
+  | Podaj klasę stali:
+  br
+  form#klStali(action = '/klstali' method = 'POST')
+    input#000(type='radio' name='klS' value='St0S0-b')
+    label(for='St0S0-b') St0S0-b
+    br
+    input#001(type='radio' name='klS' value='St3SX-b')
+    label(for='St3SX-b') St3SX-b
+    br
+    input#002(type='radio' name='klS' value='St3SY-b')
+    label(for='St3SY-b') St3SY-b
+    br
+    input#003(type='radio' name='klS' value='St3S-b')
+    label(for='St3S-b') St3S-b
+    br
+    input#004(type='radio' name='klS' value='PB 240')
+    label(for='PB 240') PB 240
+    br
+    input#005(type='radio' name='klS' value="St50B'")
+    label(for='St50B') St50B
+    br
+    input#006(type='radio' name='klS' value='18G2-b')
+    label(for='18G2-b') 18G2-b
+    br
+    input#007(type='radio' name='klS' value='20G2Y-b')
+    label(for='20G2Y-b') 20G2Y-b
+    br
+    input#008(type='radio' name='klS' value='25G2S')
+    label(for='25G2S') 25G2S
+    br
+    input#009(type='radio' name='klS' value='35G2Y')
+    label(for='35G2Y') 35G2Y
+    br
+    input#0010(type='radio' name='klS' value='20G2Y-b')
+    label(for='20G2Y-b') 20G2Y-b
+    br
+    input#0011(type='radio' name='klS' value='34GS')
+    label(for='34GS') 34GS
+    br
+    input#0012(type='radio' name='klS' value='RB400')
+    label(for='RB400') RB400
+    br
+    input#RB400W(type='radio' name='klS' value='RB400W')
+    label(for='RB400W') RB400W
+    br
+    input#0013(type='radio' name='klS' value='20G2VY-b')
+    label(for='20G2VY-b') 20G2VY-b
+    br
+    input#0014(type='radio' name='klS' value='RB500')
+    label(for='klb5') RB500
+    br
+    input#0015(type='radio' name='klS' value='RB500 W')
+    label(for='RB500 W') RB500 W
+    input(type='submit' id='oblicz' name='submit' value='OBLICZ')

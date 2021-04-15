@@ -1,0 +1,141 @@
+<!Doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+
+    <title>belka-obciążenia </title>
+    <meta name="description" content="The HTML5">
+    <meta name="Maciej_Marosz" content="IT POL">
+
+    <link rel="stylesheet" href="belka.css">
+    <link rel="shortcut icon" href="#">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <script src = "jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id = "a2">Obliczanie  belki żelbetowej</div>
+    <br>
+    <div class="comments" >podaj dane</div>
+    <br>
+
+<div>
+	<div id="entities" >
+		<div class="ent"> hbelki [mm]:  </div>
+		<div class="ent"> szer-belki [mm]:  </div>
+		<div class="ent"> otulina [mm]:   </div>
+		<div class="ent"> błąd [mm]:  </div>
+		<div class="ent"> fi [mm]:   </div>
+    <div class="ent"> fi st. [mm]: </div>
+		<div class="ent"> moment zginający[MNm]   </div>
+	</div>
+
+	<div id="form1">
+		<form id="formula" action="#">
+				<input type="text" name="hbelki" id="hbelki" required pattern="[0-9]+(\.[0-9]+)?"><br>
+				<input type="text" name="szbelki" id="szbelki" required pattern="[0-9]+(\.[0-9]+)?"><br>
+				<input type="text" name="otulina" id="otulina" required pattern="[0-9]+(\.[0-9]+)?"><br>
+				<input type="text" name="blad" id="blad" required pattern="[0-9]+(\.[0-9]+)?"><br>
+				<input type ="text" name="fi" id="fi" required pattern="[0-9]+(\.[0-9]+)?"><br>
+        <input type ="text" name="fis" id="fis" required pattern="[0-9]+(\.[0-9]+)?"><br>
+				<input type = "text" name = "mz" id="mz" required pattern="[0-9]+(\.[0-9]+)?"><br>
+				<input type="button" onclick="myFunction()" value = "OBLICZ">
+		</form>
+	</div>
+</div>
+<div style="clear:both;"></div>
+
+<div id="form2">Podaj klasę betonu wg Eurokodu 2: <br>
+	 <form id="e2">
+  <input type="radio" id="01" name="klbetonu" value="C12/15">
+  <label for="C12/15">C12/15</label><br>
+  <input type="radio" id="11" name="klbetonu" value="C16/20">
+  <label for="C16/20">C16/20</label><br>
+  <input type="radio" id="21" name="klbetonu" value="C20/25">
+  <label for="C20/25">C20/25</label><br>
+    <input type="radio" id="31" name="klbetonu" value="C25/30">
+  <label for="C25/30">C25/30</label><br>
+    <input type="radio" id="41" name="klbetonu" value="C30/37">
+  <label for="C30/37">C30/37</label><br>
+    <input type="radio" id="51" name="klbetonu" value="C35/45">
+  <label for="C35/45">C35/45</label> <br>
+  <input type="radio" id="61" name="klbetonu" value="C40/50">
+  <label for="C40/50">C40/50</label><br>
+    <input type="radio" id="71" name="klbetonu" value="C45/55">
+	  <label for="C45/55">C45/55</label><br>
+   <input type="radio" id="81" name="klbetonu" value="C50/60">
+	  <label for="C50/60">C50/60</label><br>
+	   <input type="radio" id="91" name="klbetonu" value="C55/65">
+	  <label for="C55/65">C55/65</label><br>
+	   <input type="radio" id="101" name="klbetonu" value="C60/70">
+	  <label for="C60/70">C60/70</label><br><br>
+</form>
+</div>
+
+<div id="form3">
+	<form id= "klbetonu">
+	  <input type="radio" id="0" name="cechab" value="Wytrzymałość gwarantowana fG c,cube">
+	  <label for="klb2">Wytrzymałość gwarantowana fG c,cube</label><br>
+	   <input type="radio" id="1" name="cechab" value="Wytrzymałość charakterystyczna fck">
+	  <label for="klb3">Wytrzymałość charakterystyczna fck</label><br>
+	   <input type="radio" id="2" name="cechab" value="Wytrzymałość obliczeniowa fcd(beton zbrojony)">
+	  <label for="klb4">Wytrzymałość obliczeniowa fcd(beton zbrojony)</label><br>
+	  <input type="radio" id="3" name="cechab" value="Wytrzymałość obliczeniowa f*cd (beton niezbrojony)">
+	  <label for="klb5">Wytrzymałość obliczeniowa f*cd (beton niezbrojony)</label><br><br>
+</form>
+</div>
+	<form id= "klStali">
+	  <input type="radio" id="000" name="klS" value="St0S0-b">
+	  <label for="St0S0-b">St0S0-b</label><br>
+	   <input type="radio" id="001" name="klS" value="St3SX-b">
+	  <label for="St3SX-b">St3SX-b</label><br>
+	   <input type="radio" id="002" name="klS" value="St3SY-b">
+	  <label for="St3SY-b">St3SY-b</label><br>
+	  <input type="radio" id="003" name="klS" value="St3S-b">
+	  <label for="St3S-b">St3S-b</label><br>
+	  	  <input type="radio" id="004" name="klS" value="PB 240">
+	  <label for="PB 240">PB 240</label><br>
+	  	  <input type="radio" id="005" name="klS" value="St50B'">
+	  <label for="St50B">St50B</label><br>
+	  	  <input type="radio" id="006" name="klS" value="18G2-b">
+	  <label for="18G2-b">18G2-b</label><br>
+	  	  <input type="radio" id="007" name="klS" value="20G2Y-b">
+	  <label for="20G2Y-b">20G2Y-b</label><br>
+	   <input type="radio" id="008" name="klS" value="25G2S">
+	  <label for="25G2S">25G2S</label><br>
+	   <input type="radio" id="009" name="klS" value="35G2Y">
+	  <label for="35G2Y">35G2Y</label><br>
+	   <input type="radio" id="0010" name="klS" value="20G2Y-b">
+	  <label for="20G2Y-b">20G2Y-b</label><br>
+	   <input type="radio" id="0011" name="klS" value="34GS">
+	  <label for="34GS">34GS</label><br>
+	    <input type="radio" id="0012" name="klS" value="RB400">
+	  <label for="RB400">RB400</label><br>
+	    <input type="radio" id="RB400W" name="klS" value="RB400W">
+	  <label for="RB400W">RB400W</label><br>
+	    <input type="radio" id="0013" name="klS" value="20G2VY-b">
+	  <label for="20G2VY-b">20G2VY-b</label><br>
+	    <input type="radio" id="0014" name="klS" value="RB500">
+	  <label for="klb5">RB500</label><br>
+	   <input type="radio" id="0015" name="klS" value="RB500 W">
+	  <label for="RB500 W">RB500 W</label><br><br>
+
+
+</form>
+
+
+</div>
+<div class="wrapper">
+  <div id="wyniki_1">
+     <a href="belka-wyniki.html"><span>Zobacz wyniki</span></a>
+
+ </div>
+ <div id="wyniki_2">
+	<a href="resetph.html">Wyzeruj dane</a>
+ </div>
+</div>
+
+</body>
+</html>

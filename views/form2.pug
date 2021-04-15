@@ -1,0 +1,52 @@
+doctype html
+html(lang='pl')
+  head
+    meta(charset='utf-8')
+    title belka-obciążenia
+    meta(name='description' content='The HTML5')
+    meta(name='Maciej_Marosz' content='IT POL')
+    link(rel='stylesheet' href='css/belka.css')
+    link(rel='shortcut icon' href='#')
+    link(rel='icon' href='data:;base64,iVBORw0KGgo=')
+    script(src='js/jquery-3.4.1.min.js')
+    
+  body
+  #form2
+    | Podaj klasę betonu wg Eurokodu 2:
+    br
+    form#e2(action='/form2' method='POST')
+      input#01(type='radio' name='klbetonu' value='C12/15' required)
+      label(for='C12/15') C12/15
+      br
+      input#11(type='radio' name='klbetonu' value='C16/20')
+      label(for='C16/20') C16/20
+      br
+      input#21(type='radio' name='klbetonu' value='C20/25')
+      label(for='C20/25') C20/25
+      br
+      input#31(type='radio' name='klbetonu' value='C25/30')
+      label(for='C25/30') C25/30
+      br
+      input#41(type='radio' name='klbetonu' value='C30/37')
+      label(for='C30/37') C30/37
+      br
+      input#51(type='radio' name='klbetonu' value='C35/45')
+      label(for='C35/45') C35/45
+      br
+      input#61(type='radio' name='klbetonu' value='C40/50')
+      label(for='C40/50') C40/50
+      br
+      input#71(type='radio' name='klbetonu' value='C45/55')
+      label(for='C45/55') C45/55
+      br
+      input#81(type='radio' name='klbetonu' value='C50/60')
+      label(for='C50/60') C50/60
+      br
+      input#91(type='radio' name='klbetonu' value='C55/65')
+      label(for='C55/65') C55/65
+      br
+      input#101(type='radio' name='klbetonu' value='C60/70')
+      label(for='C60/70') C60/70
+      input(type='submit' id='oblicz' name='submit' value='DALEJ')
+      br
+      br

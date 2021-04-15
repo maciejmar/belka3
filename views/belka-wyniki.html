@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+      <meta charset="utf-8">
+
+      <title>belka-obciążenia-wyniki </title>
+      <meta name="description" content="The HTML5">
+      <meta name="Maciej_Marosz" content="IT POL">
+
+      <link rel="stylesheet" type="text/css" href="css/belka.css">
+      <link rel="shortcut icon" href="#">
+
+      <script src = "jquery-3.4.1.min.js"></script>
+      <script src="scripts/require.js"></script>
+
+</head>
+
+  <body style="background-color:white;color:black;">
+      <div id="wyniki">W Y N I K I</div>
+      <div id="wyniki_3" style="font-size:34"></div>
+      <!--<textarea>tutaj nic takiego</textarea> -->
+    <script type="text/javascript" charset="utf-8" >
+
+
+
+    function myFunction() {
+
+          const func= require('./func.js');
+
+          document.forms['formula'].submit();
+          document.forms['e2'].submit();
+          document.getElementById("formula").submit();
+          const form = document.querySelector('formula');
+          const data = Object.fromEntries(new FormData(formula).entries());
+          const data1=Object.fromEntries(new FormData(e2).entries());
+
+          var d = MMTOMETERS*(parseFloat(data.hbelki) - parseFloat(data.otulina)- parseFloat(data.blad)- - parseFloat(data.fis) - parseFloat(data.fi*0.5));
+          var fcd=13.0;
+
+          var klbetC=["C12/15", "C16/20", "C20/25", "C25/30", "C30/37", "C35/45", "C40/50", "C45/55", "C50/60", "C55/65", "C60/70"]
+          var klbet = [];
+          klbet[0]=[];
+          klbet[1]=[];
+          klbet[2]=[];
+          klbet[3]=[];
+
+          klbet[0]=['15','20','25','30','37','45','50','55','60','65', '70'];
+          klbet[1]=['12', '16', '20', '25', '30', '35', '40', '45', '50', '55', '60'];
+          klbet[2]= ['8.0', '10.6', '13.3', '16.7', '20.0', '23.3', '26.7', '30.0', '33.3', '36.7', '40.0'];
+          klbet[3]=['6.7', '8.9', '11.1','13.9','16.7','19.4','22.2','25.0','27.8','30.6','33.3'];
+
+          var fyd2 = [190,210, 310, 350, 420, 435];
+          var milim = [0.428, 0.423, 0.399, 0.390, 0.374, 0.371];
+          var ksilim = [0.787, 0.769,0.693,0.667,0.625,0.617];
+          var omega;
+
+          var gStali =["St0S0-b", "St3SX-b", "St3SY-b", "St3S-b", "PB 240", "St50B", "18G2-b", "20G2Y-b", "25G2S", "35G2Y", "34GS", "RB400", "RB400W",
+           "20G2VY-b", "RB500", "RB500 W"];
+          var fyk=[220, 240, 240, 240, 240, 355, 355, 355, 395, 410, 410, 400, 400, 490, 500, 500];
+          var fyd = [190, 210, 210, 210, 210, 310, 310, 310, 350, 350, 350, 350, 350, 420, 420, 420];
+
+          var e2value = document.querySelector('input[name="klbetonu"]:checked').value;
+
+          setCookie("klbetonu",e2value,12);
+          var ind = klbetC.findIndex(k => k == e2value);
+          //fck here gains a value
+          var fck = klbet[1][ind];
+
+          var klStali = document.querySelector('input[name="klS"]:checked').value;
+          var cechaB = document.querySelector('input[name="cechab"]:checked').value;
+
+          setCookie("cechaB",cechaB,12);
+          setCookie("klStali",klStali,12);
+          var rBet = ['Wytrzymałość gwarantowana fG c,cube', 'Wytrzymałość charakterystyczna fck',
+          'Wytrzymałość obliczeniowa fcd(beton zbrojony)', 'Wytrzymałość obliczeniowa f*cd (beton niezbrojony)'];
+
+          var d = MMTOMETERS*(parseFloat(data.hbelki) - parseFloat(data.otulina)- parseFloat(data.blad)-parseFloat(data.fis)-parseFloat(data.fi*0.5));
+          var d_h_minus_a = d;
+          var fcd=klbet[2][findIndex(e2value, klbetC)];
+
+
+           var mi= (parseFloat(data.mz))/( MMTOMETERS*parseFloat(data.szbelki)* d*d *0.85*parseFloat(fcd));
+           var Fyd = fyd[findIndex (klStali, gStali)] ;
+           var Fyk = fyk[findIndex (klStali, gStali)];
+           console.log('Fyd ->  '+Fyd);
+           console.log('fyd2  '+ fyd2);
+           console.log('fyd2 length  '+ fyd2.length);
+           console.log ('findIndex od 210  - > '+ findIndex(210, fyd2)  );
+           if ( 0<findIndex(Fyd, fyd2) && findIndex(Fyd, fyd2) <5 ) console.log ('in range = '+ findIndex(Fyd, fyd2) );
+           else console.log ('out of range '+findIndex(Fyd, fyd2));
+           var ksi_lim = ksilim[findIndex(Fyd, fyd2)];
+           var mi_lim = milim[ findIndex(Fyd, fyd2)];
+
+           if (mi<=mi_lim)  omega = 0.973-Math.sqrt( (0.947-1.95*mi));
+           else omega = ((1-ksi_lim)/ksi_lim) * [ Math.pow( 0.973-Math.sqrt( 0.947-1.95*mi ),2) / (Math.sqrt(0.947-1.95*mi) - 0.164)];
+           var As1= (omega * MMTOMETERS*parseFloat(data.szbelki) *d) * ((0.85*fcd)/Fyd);
+           var As1min = (0.6* ( MMTOMETERS* parseFloat(data.szbelki) ) *d )/Fyk;
+           As1min2=0.0015* (MMTOMETERS* parseFloat(data.szbelki)) *d;
+           var max = Math.max(As1, As1min, As1min2);
+
+
+          var data11=document.forms["formula"]["hbelki"].value;
+          let dataJo2 = {"hBelki":data.hbelki, "szBelki":data.szbelki,"otulina":data.otulina,
+          "fi":data.fi, "fis":data.fis, "blad":data.blad, "fck":fck, "mi":mi, "As1":As1};
+          let dataJo3=JSON.stringify(dataJo2);
+
+          let dataJo =
+                "\r hBelki: " + data.hbelki + " \r\n " +
+                "szBelki: " + data.szbelki + " \r\n " +
+                "otulina: " + data.otulina + " \r\n " +
+                "fi: " + data.fi + " \r\n " +
+                "fis: " +data.fis +" \r\n" +
+                "blad: " + data.blad+ " \r\n " +
+                "fck: " + fck +" \r\n " +
+                "mi: "+ mi +" \r\n " +
+                "As1: "+As1;
+          let dataJ = JSON.stringify(dataJo);
+          //setting getCookie
+                setCookie("fck",fck,12);
+                setCookie("b",data.hbelki,12);
+                setCookie("d",data.szbelki,12);
+                setCookie("d_h_minus_a",d_h_minus_a,12)
+                setCookie("otulina", data.otulina,12);
+                setCookie("fck", fck,12);
+                setCookie("mz",data.mz,12);
+
+                setCookie("fi", data.fi, 12);
+                setCookie("fis", data.fis,12);
+                setCookie("blad", data.blad, 12);
+                setCookie("As1", As1, 12);
+                setCookie("mi", mi, 12);
+
+                setCookie("klbetonu",data1.klbetonu,12);
+
+          document.addEventListener("DOMContentLoaded", () => {
+                console.log("DOM ready!");
+          var klbetonu="C12/15";
+
+          $(str).prop('checked',true);
+
+          setInputs("b","hbelki" );
+          setInputs("d", "szbelki");
+          setInputs("otulina", "otulina");
+          setInputs("blad", "blad");
+          setInputs("fi", "fi");
+          setInputs("fis", "fis");
+          setInputs("mz", "mz");
+          setInputsbyName("klbetonu","klbetonu");
+          setInputsbyName("cechaB","cechab");
+          setInputsbyName("klStali","klS");
+
+
+
+});
+
+}
+
+
+
+          var txt = '';
+          var xmlhttp = new XMLHttpRequest();
+          xmlhttp.onreadystatechange = function(){
+            if(xmlhttp.status == 200 && xmlhttp.readyState == 4){
+              txt = xmlhttp.responseText;
+            }
+          };
+          xmlhttp.open("GET","./input.txt",true);
+          xmlhttp.send();
+
+          var hereDisp;
+          var myInit = {method: 'GET',
+          									headers: { 'Content-Type': 'application/json'},
+          									mode: 'cors',
+          									cache: 'default' };
+          let myRequest = new Request ("./belka.json", myInit);
+          fetch (myRequest).then (function(resp) {
+          							return resp.json ();
+          		}).then (function (datax) {
+
+                        var s = datax.mi;
+                        var wynikiS='';
+
+                        wynikS='Parametry:'+'<br>'
+                        +'hBelki='+datax.hBelki+'<br>'
+                        +'szBelki='+datax.szBelki+'<br>'
+                        +'otulina='+datax.otulina+'<br>'
+                        +'fi='+datax.fi+'<br><br>'
+                        +'Obliczono:'+'<br>'
+                        +'mi='+datax.mi+'<br>'
+                        +'As1='+datax.As1+'<br>';
+                        $("#wyniki_3").html(wynikS);
+
+              });
+   </script>
+  </body>
+</html>

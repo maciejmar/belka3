@@ -1,0 +1,115 @@
+<!Doctype html>
+    <html lang="pl">
+        <head>
+                <meta charset="utf-8">
+                <title>rysy </title>
+                <meta name="description" content="The HTML5">
+                <meta name="Maciej_Marosz" content="IT POL">
+                <link rel="stylesheet" href="menu.css">
+                <link rel="shortcut icon" href="#">
+                <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+                <script src="scripts/require.js"></script>
+                <script src = "jquery-3.4.1.min.js"></script>
+
+        </head>
+
+            <body>
+              <div class="bl1" style="display:inline-block;font-size:55px; text-align:center;"> Rysy </div>
+              <div class="bl2" style="display:inline-block;font-size:55px; text-align:center;">&nbsp;Rysy&nbsp;</div>
+              <div class="bl3" style="display:inline-block;font-size:55px; text-align:center;"> Rysy</div>
+              <div style="float:left"></div>
+              <div><br><br></div>
+              <button>
+             <a href="rysy-wyniki.html">WYNIKI</a>
+             <span></span>
+             </button>
+
+              <script type="text/javascript">
+
+              function getCookie(cname) {
+              var name = cname + "=";
+              var decodedCookie = decodeURIComponent(document.cookie);
+              var ca = decodedCookie.split(';');
+              for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                  c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                  return c.substring(name.length, c.length);
+                }
+              }
+              return "";
+              }
+              var MMTOMETERS = 0.001;
+              var kl=['15','20','25','30','37','45','50'];
+              var fcktab=['12','16','20','25','30','35','40'];
+              var fcrnTab = ['1.6','1.9','2.2','2.6','2.9','3.2','3.5'];
+              var ecnTab = ['26','27.5','29','30.5','32','33.5','35'];
+              var fck = getCookie('fck');
+              var dd = getCookie('d')*MMTOMETERS;
+              var d_h_minus_a = parseFloat(getCookie('d_h_minus_a'));
+              var fcrn = parseFloat(fcrnTab[findIndex(fck,fcktab)] );
+              var ectn = ecnTab[findIndex(fck,kl)];
+              var otulina = getCookie('otulina');
+              var blad = getCookie('blad');
+              var fi = parseFloat(getCookie('fi'));
+              var b = getCookie('b');
+              var h = getCookie('h');
+              var fis = getCookie('fis');
+              var d = b - otulina-blad-fis-(fi/2);
+              d=d*MMTOMETERS;
+              console.log('d=',d);
+              var mz = getCookie('mz');
+              var As1p = 1.05*getCookie('As1');
+              var aa = parseFloat(otulina) + parseFloat(blad)+parseFloat(fis)+((parseFloat(fi)/2));
+              var hcef = 2.5 *aa*MMTOMETERS;
+              var ros = mz/(0.85*d_h_minus_a*As1p);
+              var ropef = As1p/(dd*hcef);
+              const k =1;
+              var fp = (k * fcrn)/ropef;
+              const omega = 0.3;
+              var ksis = ros;
+              var ksisN= Math.max(0.6*ksis,ksis-0.4*(fp+19));
+              var c = aa-(fi/2);
+              var fig = (8.53/fp)* ( ((200000*omega)/ksisN) -3.4*c  );  //brakuje Wk - szerokości rysy w liczniku za omegą
+              console.log('fig=',fig);
+              setCookie("ksisN",ksisN,12);
+              setCookie("Fig", fig,12);
+              setCookie("ropef",ropef,12);
+
+              function getCookie(cname) {
+              var name = cname + "=";
+              var decodedCookie = decodeURIComponent(document.cookie);
+              var ca = decodedCookie.split(';');
+              for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                  c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                  return c.substring(name.length, c.length);
+                }
+              }
+              return "";
+              }
+
+              function setCookie(cname, cvalue, exdays) {
+              var d = new Date();
+              d.setTime(d.getTime() + (exdays*24*60*60*1000));
+              var expires = "expires="+ d.toUTCString();
+              document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+              }
+
+
+
+              function findIndex (value, tab){
+                   console.log ("value=     "+value+"   tab= "+tab);
+              		for (i=0;i<tab.length;i++) {
+              		if( value.toString().localeCompare(tab[i].toString()) === 0) return i;
+              		}
+              		return -1;
+              }
+              </script>
+            </body>
+  </html>
