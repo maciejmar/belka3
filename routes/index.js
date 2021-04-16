@@ -15,7 +15,9 @@ router.get('/', PagesController.form2);
 router.get('/', PagesController.typwyt);
 router.get('/', PagesController.klStali);
 
-router.get('/ugiecie',PagesController.ugiecie);
+router.get('/', PagesController.ugiecie);
+router.get('/', PagesController.ugiecieWyniki);
+router.post('/ugiecie-wyniki', ApplicationsController.ugiecieWyniki);
 // router.get('/scinanie',PagesController.scinanie);
 // router.get('/rysy',PagesController.rysy);
 router.post('/api', ApplicationsController.datatoweb);
@@ -23,5 +25,7 @@ router.post('/apiform', ApplicationsController.validate, ApplicationsController.
 router.post('/form2', ApplicationsController.datatoweb2);
 router.post('/typwyt',ApplicationsController.datatoweb3);
 router.post('/klStali', ApplicationsController.datatoweb4, ApplicationsController.calculate);
+
+router.post('/')
 
 module.exports = router;

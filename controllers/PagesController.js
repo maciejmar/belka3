@@ -42,3 +42,9 @@ exports.klStali = (req,res) => {
     title: 'Node'
   });
 }
+
+exports.ugiecieWyniki = (req,res) => {
+  res.render('ugieciewyniki', {
+     title: 'Node'
+  });
+}

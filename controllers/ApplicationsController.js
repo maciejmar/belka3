@@ -125,3 +125,9 @@ var wynikiS = '';
    });
 
 }
+
+exports.ugiecieWyniki = (req,res) => {
+  res.render('ugieciewyniki', {
+      title: 'Node'
+  });
+}
