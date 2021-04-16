@@ -14,7 +14,8 @@ router.get('/', PagesController.zginanie);
 router.get('/', PagesController.form2);
 router.get('/', PagesController.typwyt);
 router.get('/', PagesController.klStali);
-// router.get('/ugiecie',PagesController.ugiecie);
+
+router.get('/ugiecie',PagesController.ugiecie);
 // router.get('/scinanie',PagesController.scinanie);
 // router.get('/rysy',PagesController.rysy);
 router.post('/api', ApplicationsController.datatoweb);

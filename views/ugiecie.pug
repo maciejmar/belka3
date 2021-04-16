@@ -1,0 +1,30 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title lf-ugiecie
+  meta(name='description' content='The HTML5')
+  meta(name='Maciej_Marosz' content='IT POL')
+  link(rel='stylesheet' href='/css/menu.css')
+  link(rel='shortcut icon' href='#')
+  link(rel='icon' href='data:;base64,iVBORw0KGgo=')
+  script(src='scripts/require.js')
+  script(src='jquery-3.4.1.min.js')
+form#lfi(name='lfi' action='/ugiecie-wyniki.pug')
+  input#lf(type='text' name='lf' value='podaj lf [m]' onfocus="this.value='';")
+  input(type='button' value='Zatwierdź' onclick='myfunk()')
+  //
+    <button id="btn-u" type ="submit" value="OBLICZ" onclick=setCookie("lf",lf,12);document.location="ugiecie-wyniki.html">Potwierdź</button>
+script(type='text/javascript').
+  function myfunk(){
+  document.forms['lfi'].submit();
+  const data = Object.fromEntries(new FormData(lfi).entries());
+  console.log("--------------  lfi = "+data.lf);
+  //alert("lfi "+data.lf);
+  setCookie("lf",data.lf,12);
+  function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+  }

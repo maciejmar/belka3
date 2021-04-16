@@ -4,9 +4,13 @@ console.log('applicationsController was trigged');
 
 exports.datatoweb = (req,res) => {
     console.log('this is req -> ', req.body);
-    var a = req.body;
-    var b = req.body;
-    res.render('zginanie');
+    const a = req.body;
+    const b = req.body;
+
+    for(var prop in a){
+      console.log("the text is ",prop,' and value = ',a[prop]);
+    }
+    res.render(prop);
 };
 
 exports.validate = (req,res,next) =>{

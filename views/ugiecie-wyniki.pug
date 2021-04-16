@@ -1,0 +1,104 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title Wyniki-ugi&eogon;cie 
+  meta(name='description' content='The HTML5')
+  meta(name='Maciej_Marosz' content='IT POL')
+  link(rel='stylesheet' href='/css/belka.css')
+  link(rel='shortcut icon' href='#')
+  link(rel='icon' href='data:;base64,iVBORw0KGgo=')
+  script(src='scripts/require.js')
+  script(src='jquery-3.4.1.min.js')
+#wyniki_3(style='font-size:34')
+br
+.wrapper
+  a(href='menu.html')
+    span MENU
+  br
+script(type='text/javascript').
+  var as1, d,b,mz,fck, lf;
+  const MMTOMETERS = 0.001;
+  var mz=getCookie("mz");
+  mz = mz/1.2;
+  var as1=getCookie("As1");
+  var b=getCookie("b"); b=b*MMTOMETERS;
+  var d_tu_b=getCookie("d"); d_tu_b=d_tu_b*MMTOMETERS;
+  var d_h_minus_a=getCookie("d_h_minus_a");
+  console.log('d before ch ent.  = ',d_h_minus_a);
+  console.log('mz as1 b : ', mz,"    ",as1, " ", b);
+  var fck=getCookie("fck");
+  var ld = getCookie("Ld");
+  var ldLim = getCookie("Llim");
+  var ka = getCookie("K");
+  var normOK = getCookie("normOK");
+  var lf = getCookie("lf");
+  console.log('GET COOKIE '+ getCookie("K") +' ld  '+
+  getCookie("Ld") + ' Llim  '+ ldLim + '  normOK '+getCookie("normOK"));
+  console.log("----------------------> Mz= " +mz+"as1= "+as1+"b= "+b+"d= "+d+"fck= "+fck);
+  var as1p = as1 * 1.05;
+  console.log('as1p=',as1p);
+  var z = ( 0.85 * d_h_minus_a );
+  var deltaS = mz/(z*as1p);
+  console.log("deltaS="+deltaS);
+  console.log('tutaj lf , mz, z ',lf,' , ',mz,' , ', z);
+  console.log('fck = ', fck, " sqrt fck = ", Math.sqrt(fck));
+  var ro0 = 0.001 * Math.sqrt(parseFloat(fck));
+  console.log('tu jest ro0=',ro0);
+  console.log('obliczanie ro as1 b dh-a :',as1, '  ',d_tu_b,'  ',d_h_minus_a );
+  var ro = as1 / (d_tu_b*d_h_minus_a);
+  var delta;
+  console.log("ro="+ro);
+  if (ro <= ro0 ) delta = 11 + 1.5 * Math.sqrt(fck) * (ro0/ro) + 3.2 * Math.sqrt(fck) * (Math.pow ( (ro0/ro) -1 ,1.5 ) );
+  else delta = 11+ 1.5 * Math.sqrt(fck) * (ro0/ro);
+  var ldLim = ( 310/deltaS ) * ka * delta;
+  console.log('delta = ',delta, ' ld= ',ld, 'deltas ',deltaS);
+  var ld = lf/d_h_minus_a;
+  var normOK;
+  if (ld <= ldLim) {console.log( 'Gratulacje!!! Wymagania normy zostały spełnione');normOK='jest spełniony';}
+  else {console.log ('Wymagania normy nie zostały spełnione');normOK='jest niespełniony';}
+  // var wynikS ='';
+  // wynikS='Parametry:'+'<br>'
+  //         +'K='+ka+'<br>'
+  //         +'Ld='+ld+'<br>'
+  //         +'Ldlim='+ldLim+'<br>';
+  // $("#wyniki_3").html(wynikS);
+  setCookie ("Ld",ld, 12);
+  setCookie ("Llim", ldLim, 12);
+  setCookie ("normOK", normOK, 12);
+  setCookie("delta",delta,12);
+  var szbelki = getCookie('d');
+  console.log('GET COOKIE '+ getCookie("K") +' ld  '+
+  getCookie("Ld") + ' Llim  '+ ldLim + '  normOK '+getCookie("normOK"));
+  var wynikiS='';
+  wynikS='<span>Parametry:'+'<br>'
+  +' hBelki='+b.toFixed(4)+' [m]<br>'
+  +' szBelki='+getCookie('d')*MMTOMETERS.toFixed(4)+ ' [m]<br>'
+  +' fck='+fck+' [MPa]<br>'
+  +' &#955;='+delta+'<br>'
+  +' &#963;<b>s1</b>='+deltaS+'<br>'
+  +' l<b>eff</b>/d='+ld+'<br>'
+  +' (l<b>eff</b>/d)<b>lim</b>='+ldLim+'<br>'
+  +' Warunek: l<b>eff</b>/d<=(l<b>eff</b>/d)<b>lim</b> '+normOK+'<br>'
+  +'</span>'
+  $("#wyniki_3").html(wynikS);
+  function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+  function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+  var c = ca[i];
+  while (c.charAt(0) == ' ') {
+  c = c.substring(1);
+  }
+  if (c.indexOf(name) == 0) {
+  return c.substring(name.length, c.length);
+  }
+  }
+  return "";
+  }
