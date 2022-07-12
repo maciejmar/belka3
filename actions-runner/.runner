@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 22,
-  "agentName": "belka-3-node-runner",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelines.actions.githubusercontent.com/AuYE7zpLwZz53yuqKqKnzQ0pIxqNa5w1iU0sGV5oFkgXPFr1Xe",
-  "gitHubUrl": "https://github.com/maciejmar/belka3",
-  "workFolder": "belka_3_work"
-}
