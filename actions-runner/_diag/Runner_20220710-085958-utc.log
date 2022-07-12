@@ -1,0 +1,1792 @@
+[2022-07-10 08:59:58Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO HostContext] Well known config file 'Credentials': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO HostContext] Well known config file 'Runner': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.runner'
+[2022-07-10 08:59:58Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2022-07-10 08:59:58Z INFO Listener] RuntimeInformation: Linux 5.4.0-113-generic #127-Ubuntu SMP Wed May 18 14:30:56 UTC 2022.
+[2022-07-10 08:59:58Z INFO Listener] Version: 2.294.0
+[2022-07-10 08:59:58Z INFO Listener] Commit: 709bd6113d2fca3a89a0fef11913ce4efd7b8cc5
+[2022-07-10 08:59:58Z INFO Listener] Culture: 
+[2022-07-10 08:59:58Z INFO Listener] UI Culture: 
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO Listener] Validating directory permissions for: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO CommandLineParser] Parse
+[2022-07-10 08:59:58Z INFO CommandLineParser] Parsing 3 args
+[2022-07-10 08:59:58Z INFO CommandLineParser] parsing argument
+[2022-07-10 08:59:58Z INFO CommandLineParser] HasArgs: False
+[2022-07-10 08:59:58Z INFO CommandLineParser] Adding Command: run
+[2022-07-10 08:59:58Z INFO CommandLineParser] parsing argument
+[2022-07-10 08:59:58Z INFO CommandLineParser] HasArgs: True
+[2022-07-10 08:59:58Z INFO CommandLineParser] arg: startuptype
+[2022-07-10 08:59:58Z INFO CommandLineParser] parsing argument
+[2022-07-10 08:59:58Z INFO CommandLineParser] HasArgs: True
+[2022-07-10 08:59:58Z INFO CommandLineParser] Adding option 'startuptype': 'service'
+[2022-07-10 08:59:58Z INFO Listener] Arguments parsed
+[2022-07-10 08:59:58Z INFO Runner] ExecuteCommand
+[2022-07-10 08:59:58Z INFO ConfigurationStore] currentAssemblyLocation: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin/Runner.Listener.dll
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO ConfigurationStore] binPath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO ConfigurationStore] RootFolder: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO HostContext] Well known config file 'Runner': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.runner'
+[2022-07-10 08:59:58Z INFO ConfigurationStore] ConfigFilePath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.runner
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO HostContext] Well known config file 'Credentials': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials'
+[2022-07-10 08:59:58Z INFO ConfigurationStore] CredFilePath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_migrated'
+[2022-07-10 08:59:58Z INFO ConfigurationStore] MigratedCredFilePath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_migrated
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO HostContext] Well known config file 'Service': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.service'
+[2022-07-10 08:59:58Z INFO ConfigurationStore] ServiceConfigFilePath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.service
+[2022-07-10 08:59:58Z INFO CommandSettings] Flag 'help': 'False'
+[2022-07-10 08:59:58Z INFO CommandSettings] Flag 'version': 'False'
+[2022-07-10 08:59:58Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-07-10 08:59:58Z INFO CommandSettings] Flag 'check': 'False'
+[2022-07-10 08:59:58Z INFO CommandSettings] Command 'configure': 'False'
+[2022-07-10 08:59:58Z INFO CommandSettings] Command 'remove': 'False'
+[2022-07-10 08:59:58Z INFO CommandSettings] Command 'warmup': 'False'
+[2022-07-10 08:59:58Z INFO ConfigurationManager] LoadSettings
+[2022-07-10 08:59:58Z INFO ConfigurationStore] IsConfigured()
+[2022-07-10 08:59:58Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-10 08:59:58Z INFO ConfigurationManager] Is configured: True
+[2022-07-10 08:59:58Z INFO ConfigurationStore] Read setting file: 300 chars
+[2022-07-10 08:59:58Z INFO ConfigurationManager] Settings Loaded
+[2022-07-10 08:59:58Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-07-10 08:59:58Z INFO ConfigurationStore] IsServiceConfigured: True
+[2022-07-10 08:59:58Z INFO CommandSettings] Command 'run': 'True'
+[2022-07-10 08:59:58Z INFO ConfigurationStore] IsConfigured()
+[2022-07-10 08:59:58Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-10 08:59:58Z INFO ConfigurationManager] Is configured: True
+[2022-07-10 08:59:58Z INFO Runner] Set runner startup type - Service
+[2022-07-10 08:59:58Z INFO CommandSettings] Flag 'once': 'False'
+[2022-07-10 08:59:58Z INFO CommandSettings] Flag 'once': 'False'
+[2022-07-10 08:59:58Z INFO Runner] RunAsync
+[2022-07-10 08:59:58Z INFO ConfigurationManager] LoadSettings
+[2022-07-10 08:59:58Z INFO ConfigurationStore] IsConfigured()
+[2022-07-10 08:59:58Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-10 08:59:58Z INFO ConfigurationManager] Is configured: True
+[2022-07-10 08:59:58Z INFO ConfigurationManager] Settings Loaded
+[2022-07-10 08:59:58Z INFO MessageListener] {
+  "AgentId": 22,
+  "AgentName": "belka-3-node-runner",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/AuYE7zpLwZz53yuqKqKnzQ0pIxqNa5w1iU0sGV5oFkgXPFr1Xe",
+  "GitHubUrl": "https://github.com/maciejmar/belka3",
+  "WorkFolder": "belka_3_work"
+}
+[2022-07-10 08:59:58Z INFO MessageListener] Loading Credentials
+[2022-07-10 08:59:58Z INFO ConfigurationStore] HasCredentials()
+[2022-07-10 08:59:58Z INFO ConfigurationStore] stored True
+[2022-07-10 08:59:58Z INFO CredentialManager] GetCredentialProvider
+[2022-07-10 08:59:58Z INFO CredentialManager] Creating type OAuth
+[2022-07-10 08:59:58Z INFO CredentialManager] Creating credential type: OAuth
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 08:59:58Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-10 08:59:58Z INFO HostContext] Well known config file 'RSACredentials': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams'
+[2022-07-10 08:59:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 08:59:58Z INFO MessageListener] Attempt to create session.
+[2022-07-10 08:59:58Z INFO MessageListener] Connecting to the Runner Server...
+[2022-07-10 08:59:58Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-07-10 08:59:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-10 08:59:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-07-10 08:59:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-10 08:59:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-07-10 08:59:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-10 08:59:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-10 08:59:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-10 08:59:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-10 08:59:59Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-10 08:59:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-10 08:59:59Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-10 08:59:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-10 08:59:59Z INFO MessageListener] VssConnection created
+[2022-07-10 08:59:59Z INFO Terminal] WRITE LINE: 
+[2022-07-10 08:59:59Z INFO Terminal] WRITE LINE: 
+[2022-07-10 08:59:59Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d3d086c0-9b75-4bdb-b6fd-7c3004c646a9
+ActivityId: c68d6b3d-b6c8-4701-bdda-425696800463
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 0e21ef78-887e-453e-bd08-8f3ad3eb1f52
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 462AE810746840F9B38EFD5860DC071E Ref B: FRAEDGE1105 Ref C: 2022-07-10T08:59:59Z
+Date: Sun, 10 Jul 2022 08:59:59 GMT
+
+[2022-07-10 08:59:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 08:59:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 09:00:00Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 09:00:00Z INFO MessageListener] Session created.
+[2022-07-10 09:00:00Z INFO Terminal] WRITE LINE: Current runner version: '2.294.0'
+[2022-07-10 09:00:00Z INFO Terminal] WRITE LINE: 2022-07-10 09:00:00Z: Listening for Jobs
+[2022-07-10 09:00:00Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2022-07-10 09:01:09Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 09:01:09Z INFO MessageListener] Message '2' received from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785'.
+[2022-07-10 09:01:09Z INFO Runner] Received job message of length 20682 from service, with hash 'f5eeb30ea4894174d7d5890fb7103f6afc187330f0956c838aa56c89f6054bd0'
+[2022-07-10 09:01:09Z INFO JobDispatcher] Job request 22 for plan 3e3f3bfc-d62a-452e-8666-356b2a2d02e4 job c269f388-e93f-55df-e42c-8ad0a472b48b received.
+[2022-07-10 09:01:09Z INFO JobDispatcher] Pull OrchestrationId 3e3f3bfc-d62a-452e-8666-356b2a2d02e4.build._16_x from JWT claims
+[2022-07-10 09:01:09Z INFO Terminal] WRITE LINE: 2022-07-10 09:01:09Z: Running job: build (16.x)
+[2022-07-10 09:01:09Z INFO JobDispatcher] Start renew job request 22 for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 09:01:10Z INFO JobDispatcher] Successfully renew job request 22, job is valid till 07/10/2022 09:11:10
+[2022-07-10 09:01:10Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper] Starting process:
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   File name: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin/Runner.Worker'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 110 113'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   Working directory: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-07-10 09:01:10Z INFO ProcessInvokerWrapper] Process started with process id 53545, waiting for process exit.
+[2022-07-10 09:01:10Z INFO JobDispatcher] Send job request message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 09:01:10Z INFO ProcessChannel] Sending message of length 20682, with hash 'f5eeb30ea4894174d7d5890fb7103f6afc187330f0956c838aa56c89f6054bd0'
+[2022-07-10 09:01:10Z INFO JobNotification] Entering JobStarted Notification
+[2022-07-10 09:01:10Z INFO JobNotification] Entering StartMonitor
+[2022-07-10 09:01:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 09:01:54Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 09:01:54Z INFO ProcessInvokerWrapper] Finished process 53545 with exit code 100, and elapsed time 00:00:44.2001718.
+[2022-07-10 09:01:54Z INFO JobDispatcher] Worker finished for job c269f388-e93f-55df-e42c-8ad0a472b48b. Code: 100
+[2022-07-10 09:01:54Z INFO JobDispatcher] finish job request for job c269f388-e93f-55df-e42c-8ad0a472b48b with result: Succeeded
+[2022-07-10 09:01:54Z INFO Terminal] WRITE LINE: 2022-07-10 09:01:54Z: Job build (16.x) completed with result: Succeeded
+[2022-07-10 09:01:54Z INFO JobDispatcher] Stop renew job request for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 09:01:54Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 22.
+[2022-07-10 09:01:54Z INFO JobNotification] Entering JobCompleted Notification
+[2022-07-10 09:01:54Z INFO JobNotification] Entering EndMonitor
+[2022-07-10 09:31:15Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 09:32:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 09:32:40Z INFO MessageListener] Message '3' received from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785'.
+[2022-07-10 09:32:40Z INFO Runner] Received job message of length 20682 from service, with hash '711cc8211d8ddb9928a98d12ef175427728ae690efa478e302847a9582999f8d'
+[2022-07-10 09:32:40Z INFO JobDispatcher] Job request 23 for plan 683a5f8c-dfab-4735-8782-5275b81f59bd job c269f388-e93f-55df-e42c-8ad0a472b48b received.
+[2022-07-10 09:32:40Z INFO JobDispatcher] Pull OrchestrationId 683a5f8c-dfab-4735-8782-5275b81f59bd.build._16_x from JWT claims
+[2022-07-10 09:32:40Z INFO JobDispatcher] Job request c269f388-e93f-55df-e42c-8ad0a472b48b processed succeed.
+[2022-07-10 09:32:40Z INFO Terminal] WRITE LINE: 2022-07-10 09:32:40Z: Running job: build (16.x)
+[2022-07-10 09:32:40Z INFO JobDispatcher] Start renew job request 23 for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 09:32:40Z INFO JobDispatcher] Successfully renew job request 23, job is valid till 07/10/2022 09:42:40
+[2022-07-10 09:32:40Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper] Starting process:
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   File name: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin/Runner.Worker'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 98 113'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   Working directory: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-07-10 09:32:40Z INFO ProcessInvokerWrapper] Process started with process id 54198, waiting for process exit.
+[2022-07-10 09:32:40Z INFO JobDispatcher] Send job request message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 09:32:40Z INFO ProcessChannel] Sending message of length 20682, with hash '711cc8211d8ddb9928a98d12ef175427728ae690efa478e302847a9582999f8d'
+[2022-07-10 09:32:40Z INFO JobNotification] Entering JobStarted Notification
+[2022-07-10 09:32:40Z INFO JobNotification] Entering StartMonitor
+[2022-07-10 09:33:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 09:33:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 09:33:14Z INFO ProcessInvokerWrapper] Finished process 54198 with exit code 100, and elapsed time 00:00:33.6532236.
+[2022-07-10 09:33:14Z INFO JobDispatcher] Worker finished for job c269f388-e93f-55df-e42c-8ad0a472b48b. Code: 100
+[2022-07-10 09:33:14Z INFO JobDispatcher] finish job request for job c269f388-e93f-55df-e42c-8ad0a472b48b with result: Succeeded
+[2022-07-10 09:33:14Z INFO Terminal] WRITE LINE: 2022-07-10 09:33:14Z: Job build (16.x) completed with result: Succeeded
+[2022-07-10 09:33:14Z INFO JobDispatcher] Stop renew job request for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 09:33:14Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 23.
+[2022-07-10 09:33:14Z INFO JobNotification] Entering JobCompleted Notification
+[2022-07-10 09:33:14Z INFO JobNotification] Entering EndMonitor
+[2022-07-10 09:55:15Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c58fe60b-875c-4972-955f-c35d7ebf110f
+ActivityId: be0674d5-c04d-459c-b993-f0aa43daaee9
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: b2077511-ac80-49d1-b5d5-e1ee355e9803
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: EFA603118BCF4775AA4021C259E39424 Ref B: FRAEDGE1105 Ref C: 2022-07-10T09:55:15Z
+Date: Sun, 10 Jul 2022 09:55:14 GMT
+
+[2022-07-10 09:55:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 09:55:15Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 10:02:46Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 10:21:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 10:21:28Z INFO MessageListener] Message '4' received from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785'.
+[2022-07-10 10:21:28Z INFO Runner] Received job message of length 20676 from service, with hash 'f1bd270860af25ded61283719be71edac49267c7f2a23126ac54cd9c237fade1'
+[2022-07-10 10:21:28Z INFO JobDispatcher] Job request 24 for plan a0a5407f-9061-44a7-a9bb-a5e2fb3918d0 job c269f388-e93f-55df-e42c-8ad0a472b48b received.
+[2022-07-10 10:21:28Z INFO JobDispatcher] Pull OrchestrationId a0a5407f-9061-44a7-a9bb-a5e2fb3918d0.build._16_x from JWT claims
+[2022-07-10 10:21:28Z INFO JobDispatcher] Job request c269f388-e93f-55df-e42c-8ad0a472b48b processed succeed.
+[2022-07-10 10:21:28Z INFO Terminal] WRITE LINE: 2022-07-10 10:21:28Z: Running job: build (16.x)
+[2022-07-10 10:21:28Z INFO JobDispatcher] Start renew job request 24 for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 10:21:29Z INFO JobDispatcher] Successfully renew job request 24, job is valid till 07/10/2022 10:31:29
+[2022-07-10 10:21:29Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper] Starting process:
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   File name: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin/Runner.Worker'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 98 113'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   Working directory: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-07-10 10:21:29Z INFO ProcessInvokerWrapper] Process started with process id 54943, waiting for process exit.
+[2022-07-10 10:21:29Z INFO JobDispatcher] Send job request message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 10:21:29Z INFO ProcessChannel] Sending message of length 20676, with hash 'f1bd270860af25ded61283719be71edac49267c7f2a23126ac54cd9c237fade1'
+[2022-07-10 10:21:29Z INFO JobNotification] Entering JobStarted Notification
+[2022-07-10 10:21:29Z INFO JobNotification] Entering StartMonitor
+[2022-07-10 10:22:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 10:22:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 10:22:05Z INFO ProcessInvokerWrapper] Finished process 54943 with exit code 102, and elapsed time 00:00:36.8278355.
+[2022-07-10 10:22:05Z INFO JobDispatcher] Worker finished for job c269f388-e93f-55df-e42c-8ad0a472b48b. Code: 102
+[2022-07-10 10:22:05Z INFO JobDispatcher] finish job request for job c269f388-e93f-55df-e42c-8ad0a472b48b with result: Failed
+[2022-07-10 10:22:05Z INFO Terminal] WRITE LINE: 2022-07-10 10:22:05Z: Job build (16.x) completed with result: Failed
+[2022-07-10 10:22:05Z INFO JobDispatcher] Stop renew job request for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 10:22:05Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 24.
+[2022-07-10 10:22:05Z INFO JobNotification] Entering JobCompleted Notification
+[2022-07-10 10:22:05Z INFO JobNotification] Entering EndMonitor
+[2022-07-10 10:24:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 10:24:53Z INFO MessageListener] Message '5' received from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785'.
+[2022-07-10 10:24:53Z INFO Runner] Received job message of length 20665 from service, with hash '95bbf22f4a53260e7459d85b66e544a244df5e473701e8750fc87db4c83b5d6f'
+[2022-07-10 10:24:53Z INFO JobDispatcher] Job request 25 for plan 8e2281d4-5152-49f1-ade5-0f9a4c103fa3 job c269f388-e93f-55df-e42c-8ad0a472b48b received.
+[2022-07-10 10:24:53Z INFO JobDispatcher] Pull OrchestrationId 8e2281d4-5152-49f1-ade5-0f9a4c103fa3.build._16_x from JWT claims
+[2022-07-10 10:24:53Z INFO JobDispatcher] Job request c269f388-e93f-55df-e42c-8ad0a472b48b processed succeed.
+[2022-07-10 10:24:53Z INFO Terminal] WRITE LINE: 2022-07-10 10:24:53Z: Running job: build (16.x)
+[2022-07-10 10:24:53Z INFO JobDispatcher] Start renew job request 25 for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 10:24:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:34:53
+[2022-07-10 10:24:53Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper] Starting process:
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   File name: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin/Runner.Worker'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 98 113'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   Working directory: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-07-10 10:24:53Z INFO ProcessInvokerWrapper] Process started with process id 55224, waiting for process exit.
+[2022-07-10 10:24:53Z INFO JobDispatcher] Send job request message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 10:24:53Z INFO ProcessChannel] Sending message of length 20665, with hash '95bbf22f4a53260e7459d85b66e544a244df5e473701e8750fc87db4c83b5d6f'
+[2022-07-10 10:24:53Z INFO JobNotification] Entering JobStarted Notification
+[2022-07-10 10:24:53Z INFO JobNotification] Entering StartMonitor
+[2022-07-10 10:25:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:35:53
+[2022-07-10 10:26:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:36:53
+[2022-07-10 10:27:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:37:53
+[2022-07-10 10:28:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:38:54
+[2022-07-10 10:29:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:39:54
+[2022-07-10 10:30:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:40:54
+[2022-07-10 10:31:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:41:54
+[2022-07-10 10:32:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:42:54
+[2022-07-10 10:33:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:43:54
+[2022-07-10 10:34:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:44:55
+[2022-07-10 10:35:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:45:55
+[2022-07-10 10:36:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:46:55
+[2022-07-10 10:37:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:47:55
+[2022-07-10 10:38:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:48:55
+[2022-07-10 10:39:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:49:55
+[2022-07-10 10:40:56Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:50:55
+[2022-07-10 10:41:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:51:57
+[2022-07-10 10:42:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:52:57
+[2022-07-10 10:43:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:53:57
+[2022-07-10 10:44:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:54:57
+[2022-07-10 10:45:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:55:57
+[2022-07-10 10:46:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:56:57
+[2022-07-10 10:47:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:57:58
+[2022-07-10 10:48:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:58:58
+[2022-07-10 10:49:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 10:59:58
+[2022-07-10 10:50:49Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c58fe60b-875c-4972-955f-c35d7ebf110f
+ActivityId: be0c94cc-c04d-459c-b993-f0aa43daaee9
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 1c099633-6e2c-4f73-9275-2323a3886ef9
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: D43BFBF93F4741DE8E1E6D310A02AC2E Ref B: FRAEDGE1105 Ref C: 2022-07-10T10:50:48Z
+Date: Sun, 10 Jul 2022 10:50:48 GMT
+
+[2022-07-10 10:50:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 10:50:49Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 10:50:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:00:58
+[2022-07-10 10:51:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:01:58
+[2022-07-10 10:52:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:02:58
+[2022-07-10 10:53:59Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:03:58
+[2022-07-10 10:54:59Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:04:59
+[2022-07-10 10:54:59Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 10:55:59Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:05:59
+[2022-07-10 10:56:59Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:06:59
+[2022-07-10 10:57:59Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:07:59
+[2022-07-10 10:58:59Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:08:59
+[2022-07-10 11:00:00Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:10:00
+[2022-07-10 11:01:00Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:11:00
+[2022-07-10 11:02:00Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:12:00
+[2022-07-10 11:03:00Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:13:00
+[2022-07-10 11:04:00Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:14:00
+[2022-07-10 11:05:00Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:15:00
+[2022-07-10 11:06:00Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:16:00
+[2022-07-10 11:07:01Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:17:01
+[2022-07-10 11:08:01Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:18:01
+[2022-07-10 11:09:01Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:19:01
+[2022-07-10 11:10:01Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:20:01
+[2022-07-10 11:11:01Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:21:01
+[2022-07-10 11:12:01Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:22:01
+[2022-07-10 11:13:01Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:23:01
+[2022-07-10 11:14:02Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:24:02
+[2022-07-10 11:15:02Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:25:02
+[2022-07-10 11:16:02Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:26:02
+[2022-07-10 11:17:02Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:27:02
+[2022-07-10 11:18:03Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:28:03
+[2022-07-10 11:19:03Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:29:03
+[2022-07-10 11:20:03Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:30:03
+[2022-07-10 11:21:04Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:31:03
+[2022-07-10 11:22:04Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:32:04
+[2022-07-10 11:23:04Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:33:04
+[2022-07-10 11:24:04Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:34:04
+[2022-07-10 11:25:04Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:35:04
+[2022-07-10 11:25:05Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 11:26:04Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:36:04
+[2022-07-10 11:27:05Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:37:04
+[2022-07-10 11:28:05Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:38:05
+[2022-07-10 11:29:05Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:39:05
+[2022-07-10 11:30:05Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:40:05
+[2022-07-10 11:31:05Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:41:05
+[2022-07-10 11:32:05Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:42:05
+[2022-07-10 11:33:06Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:43:05
+[2022-07-10 11:34:06Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:44:06
+[2022-07-10 11:35:06Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:45:06
+[2022-07-10 11:36:06Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:46:06
+[2022-07-10 11:37:06Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:47:06
+[2022-07-10 11:38:06Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:48:06
+[2022-07-10 11:39:06Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:49:06
+[2022-07-10 11:40:06Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:50:06
+[2022-07-10 11:41:06Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:51:06
+[2022-07-10 11:42:07Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:52:06
+[2022-07-10 11:43:07Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:53:07
+[2022-07-10 11:44:07Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:54:07
+[2022-07-10 11:45:07Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:55:07
+[2022-07-10 11:45:59Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c58fe60b-875c-4972-955f-c35d7ebf110f
+ActivityId: be12d8fa-c04d-459c-b993-f0aa43daaee9
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 27b09d35-a6c2-42f2-ae6e-4a98eeabce87
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 85F46D15622D44CAB70C54E0C87B8B30 Ref B: FRAEDGE1105 Ref C: 2022-07-10T11:45:59Z
+Date: Sun, 10 Jul 2022 11:45:58 GMT
+
+[2022-07-10 11:45:59Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 11:45:59Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 11:46:07Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:56:07
+[2022-07-10 11:47:07Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:57:07
+[2022-07-10 11:48:07Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:58:07
+[2022-07-10 11:49:08Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 11:59:08
+[2022-07-10 11:50:08Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:00:08
+[2022-07-10 11:51:08Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:01:08
+[2022-07-10 11:52:08Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:02:08
+[2022-07-10 11:53:08Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:03:08
+[2022-07-10 11:54:08Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:04:08
+[2022-07-10 11:55:09Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:05:08
+[2022-07-10 11:55:11Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 11:56:09Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:06:09
+[2022-07-10 11:57:09Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:07:09
+[2022-07-10 11:58:09Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:08:09
+[2022-07-10 11:59:10Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:09:09
+[2022-07-10 12:00:10Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:10:10
+[2022-07-10 12:01:10Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:11:10
+[2022-07-10 12:02:10Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:12:10
+[2022-07-10 12:03:10Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:13:10
+[2022-07-10 12:04:11Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:14:10
+[2022-07-10 12:05:11Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:15:11
+[2022-07-10 12:06:11Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:16:11
+[2022-07-10 12:07:11Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:17:11
+[2022-07-10 12:08:11Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:18:11
+[2022-07-10 12:09:11Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:19:11
+[2022-07-10 12:10:11Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:20:11
+[2022-07-10 12:11:12Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:21:12
+[2022-07-10 12:12:12Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:22:12
+[2022-07-10 12:13:12Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:23:12
+[2022-07-10 12:14:12Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:24:12
+[2022-07-10 12:15:12Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:25:12
+[2022-07-10 12:16:13Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:26:12
+[2022-07-10 12:17:13Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:27:13
+[2022-07-10 12:18:13Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:28:13
+[2022-07-10 12:19:13Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:29:13
+[2022-07-10 12:20:14Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:30:13
+[2022-07-10 12:21:14Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:31:14
+[2022-07-10 12:22:14Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:32:14
+[2022-07-10 12:23:14Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:33:14
+[2022-07-10 12:24:14Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:34:14
+[2022-07-10 12:25:14Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:35:14
+[2022-07-10 12:25:15Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 12:26:14Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:36:14
+[2022-07-10 12:27:15Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:37:15
+[2022-07-10 12:28:15Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:38:15
+[2022-07-10 12:29:15Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:39:15
+[2022-07-10 12:30:15Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:40:15
+[2022-07-10 12:31:16Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:41:15
+[2022-07-10 12:32:16Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:42:16
+[2022-07-10 12:33:16Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:43:16
+[2022-07-10 12:34:17Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:44:17
+[2022-07-10 12:35:17Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:45:17
+[2022-07-10 12:36:17Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:46:17
+[2022-07-10 12:37:17Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:47:17
+[2022-07-10 12:38:17Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:48:17
+[2022-07-10 12:39:17Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:49:17
+[2022-07-10 12:40:17Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:50:17
+[2022-07-10 12:41:08Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bbe10a63-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: a81738f6-90c9-4f56-96ad-a679f999e4bb
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 6943C0F15DFE444EB3A54EC79FD48054 Ref B: FRAEDGE1105 Ref C: 2022-07-10T12:41:08Z
+Date: Sun, 10 Jul 2022 12:41:07 GMT
+
+[2022-07-10 12:41:08Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 12:41:08Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 12:41:18Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:51:18
+[2022-07-10 12:42:18Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:52:18
+[2022-07-10 12:43:18Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:53:18
+[2022-07-10 12:44:18Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:54:18
+[2022-07-10 12:45:18Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:55:18
+[2022-07-10 12:46:18Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:56:18
+[2022-07-10 12:47:18Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:57:18
+[2022-07-10 12:48:19Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:58:19
+[2022-07-10 12:49:19Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 12:59:19
+[2022-07-10 12:50:19Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:00:19
+[2022-07-10 12:51:19Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:01:19
+[2022-07-10 12:52:19Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:02:19
+[2022-07-10 12:53:19Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:03:19
+[2022-07-10 12:54:20Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:04:20
+[2022-07-10 12:55:20Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:05:20
+[2022-07-10 12:55:20Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 12:56:21Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:06:20
+[2022-07-10 12:57:22Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:07:21
+[2022-07-10 12:58:22Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:08:22
+[2022-07-10 12:59:22Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:09:22
+[2022-07-10 13:00:22Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:10:22
+[2022-07-10 13:01:22Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:11:22
+[2022-07-10 13:02:22Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:12:22
+[2022-07-10 13:03:23Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:13:22
+[2022-07-10 13:04:23Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:14:23
+[2022-07-10 13:05:23Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:15:23
+[2022-07-10 13:06:23Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:16:23
+[2022-07-10 13:07:23Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:17:23
+[2022-07-10 13:08:23Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:18:23
+[2022-07-10 13:09:24Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:19:23
+[2022-07-10 13:10:24Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:20:24
+[2022-07-10 13:11:24Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:21:24
+[2022-07-10 13:12:24Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:22:24
+[2022-07-10 13:13:24Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:23:24
+[2022-07-10 13:14:24Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:24:24
+[2022-07-10 13:15:24Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:25:24
+[2022-07-10 13:16:25Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:26:25
+[2022-07-10 13:17:25Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:27:25
+[2022-07-10 13:18:25Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:28:25
+[2022-07-10 13:19:25Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:29:25
+[2022-07-10 13:20:25Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:30:25
+[2022-07-10 13:21:26Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:31:26
+[2022-07-10 13:22:26Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:32:26
+[2022-07-10 13:23:26Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:33:26
+[2022-07-10 13:24:26Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:34:26
+[2022-07-10 13:25:25Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 13:25:26Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:35:26
+[2022-07-10 13:26:26Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:36:26
+[2022-07-10 13:27:26Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:37:26
+[2022-07-10 13:28:26Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:38:26
+[2022-07-10 13:29:26Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:39:26
+[2022-07-10 13:30:27Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:40:27
+[2022-07-10 13:31:27Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:41:27
+[2022-07-10 13:32:27Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:42:27
+[2022-07-10 13:33:27Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:43:27
+[2022-07-10 13:34:27Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:44:27
+[2022-07-10 13:35:27Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:45:27
+[2022-07-10 13:36:19Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bbefcba6-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 0124e231-19c6-4f25-9249-e5fd8919d637
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: D39B9A844458448FA291CCC3C0304969 Ref B: FRAEDGE1105 Ref C: 2022-07-10T13:36:18Z
+Date: Sun, 10 Jul 2022 13:36:18 GMT
+
+[2022-07-10 13:36:19Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 13:36:20Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 13:36:28Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:46:27
+[2022-07-10 13:37:28Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:47:28
+[2022-07-10 13:38:29Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:48:28
+[2022-07-10 13:39:29Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:49:29
+[2022-07-10 13:40:29Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:50:29
+[2022-07-10 13:41:29Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:51:29
+[2022-07-10 13:42:29Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:52:29
+[2022-07-10 13:43:30Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:53:29
+[2022-07-10 13:44:30Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:54:30
+[2022-07-10 13:45:30Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:55:30
+[2022-07-10 13:46:30Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:56:30
+[2022-07-10 13:47:30Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:57:30
+[2022-07-10 13:48:30Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:58:30
+[2022-07-10 13:49:31Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 13:59:30
+[2022-07-10 13:50:31Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:00:31
+[2022-07-10 13:51:31Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:01:31
+[2022-07-10 13:52:31Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:02:31
+[2022-07-10 13:53:31Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:03:31
+[2022-07-10 13:54:31Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:04:31
+[2022-07-10 13:55:31Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:05:31
+[2022-07-10 13:55:34Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 13:56:32Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:06:32
+[2022-07-10 13:57:33Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:07:33
+[2022-07-10 13:58:33Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:08:33
+[2022-07-10 13:59:33Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:09:33
+[2022-07-10 14:00:33Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:10:33
+[2022-07-10 14:01:33Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:11:33
+[2022-07-10 14:02:33Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:12:33
+[2022-07-10 14:03:34Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:13:34
+[2022-07-10 14:04:34Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:14:34
+[2022-07-10 14:05:34Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:15:34
+[2022-07-10 14:06:34Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:16:34
+[2022-07-10 14:07:34Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:17:34
+[2022-07-10 14:08:34Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:18:34
+[2022-07-10 14:09:35Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:19:34
+[2022-07-10 14:10:35Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:20:35
+[2022-07-10 14:11:35Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:21:35
+[2022-07-10 14:12:35Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:22:35
+[2022-07-10 14:13:35Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:23:35
+[2022-07-10 14:14:35Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:24:35
+[2022-07-10 14:15:36Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:25:36
+[2022-07-10 14:16:36Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:26:36
+[2022-07-10 14:17:36Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:27:36
+[2022-07-10 14:18:36Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:28:36
+[2022-07-10 14:19:36Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:29:36
+[2022-07-10 14:20:37Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:30:36
+[2022-07-10 14:21:37Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:31:37
+[2022-07-10 14:22:37Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:32:37
+[2022-07-10 14:23:37Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:33:37
+[2022-07-10 14:24:37Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:34:37
+[2022-07-10 14:25:37Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:35:37
+[2022-07-10 14:25:39Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 14:26:37Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:36:37
+[2022-07-10 14:27:38Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:37:38
+[2022-07-10 14:28:38Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:38:38
+[2022-07-10 14:29:38Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:39:38
+[2022-07-10 14:30:38Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:40:38
+[2022-07-10 14:31:30Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d4ffd675-860c-46e1-a90e-caa85b9d9103
+ActivityId: aaf9248b-49e0-415b-99a8-3d6cd306f094
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: ecfaa903-7387-404f-b7e1-7ae6485664fa
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: DB7110AAF56B4350B3151FF7DBA5C0CC Ref B: FRAEDGE1105 Ref C: 2022-07-10T14:31:30Z
+Date: Sun, 10 Jul 2022 14:31:30 GMT
+
+[2022-07-10 14:31:30Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 14:31:30Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 14:31:39Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:41:39
+[2022-07-10 14:32:39Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:42:39
+[2022-07-10 14:33:39Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:43:39
+[2022-07-10 14:34:39Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:44:39
+[2022-07-10 14:35:39Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:45:39
+[2022-07-10 14:36:39Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:46:39
+[2022-07-10 14:37:40Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:47:40
+[2022-07-10 14:38:40Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:48:40
+[2022-07-10 14:39:40Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:49:40
+[2022-07-10 14:40:40Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:50:40
+[2022-07-10 14:41:40Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:51:40
+[2022-07-10 14:42:40Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:52:40
+[2022-07-10 14:43:40Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:53:40
+[2022-07-10 14:44:41Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:54:41
+[2022-07-10 14:45:41Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:55:41
+[2022-07-10 14:46:41Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:56:41
+[2022-07-10 14:47:41Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:57:41
+[2022-07-10 14:48:41Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:58:41
+[2022-07-10 14:49:41Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 14:59:41
+[2022-07-10 14:50:41Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:00:41
+[2022-07-10 14:51:42Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:01:42
+[2022-07-10 14:52:42Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:02:42
+[2022-07-10 14:53:42Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:03:42
+[2022-07-10 14:54:42Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:04:42
+[2022-07-10 14:55:42Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:05:42
+[2022-07-10 14:55:44Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 14:56:42Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:06:42
+[2022-07-10 14:57:43Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:07:43
+[2022-07-10 14:58:43Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:08:43
+[2022-07-10 14:59:43Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:09:43
+[2022-07-10 15:00:43Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:10:43
+[2022-07-10 15:01:43Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:11:43
+[2022-07-10 15:02:43Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:12:43
+[2022-07-10 15:03:44Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:13:43
+[2022-07-10 15:04:44Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:14:44
+[2022-07-10 15:05:44Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:15:44
+[2022-07-10 15:06:44Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:16:44
+[2022-07-10 15:07:44Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:17:44
+[2022-07-10 15:08:44Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:18:44
+[2022-07-10 15:09:45Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:19:44
+[2022-07-10 15:10:45Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:20:45
+[2022-07-10 15:11:45Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:21:45
+[2022-07-10 15:12:45Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:22:45
+[2022-07-10 15:13:45Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:23:45
+[2022-07-10 15:14:46Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:24:46
+[2022-07-10 15:15:46Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:25:46
+[2022-07-10 15:16:46Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:26:46
+[2022-07-10 15:17:46Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:27:46
+[2022-07-10 15:18:47Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:28:47
+[2022-07-10 15:19:47Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:29:47
+[2022-07-10 15:20:47Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:30:47
+[2022-07-10 15:21:47Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:31:47
+[2022-07-10 15:22:48Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:32:48
+[2022-07-10 15:23:48Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:33:48
+[2022-07-10 15:24:48Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:34:48
+[2022-07-10 15:25:49Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 15:25:49Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:35:48
+[2022-07-10 15:26:39Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d4ffd675-860c-46e1-a90e-caa85b9d9103
+ActivityId: aaffbeed-49e0-415b-99a8-3d6cd306f094
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 15b1bfa7-71db-44e4-95a5-15e76d9d1d65
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: BE55CD135BC442C2A79691CED762687E Ref B: FRAEDGE1105 Ref C: 2022-07-10T15:26:39Z
+Date: Sun, 10 Jul 2022 15:26:38 GMT
+
+[2022-07-10 15:26:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 15:26:40Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 15:26:49Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:36:49
+[2022-07-10 15:27:49Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:37:49
+[2022-07-10 15:28:49Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:38:49
+[2022-07-10 15:29:49Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:39:49
+[2022-07-10 15:30:49Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:40:49
+[2022-07-10 15:31:49Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:41:49
+[2022-07-10 15:32:49Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:42:49
+[2022-07-10 15:33:49Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:43:49
+[2022-07-10 15:34:50Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:44:50
+[2022-07-10 15:35:50Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:45:50
+[2022-07-10 15:36:50Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:46:50
+[2022-07-10 15:37:50Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:47:50
+[2022-07-10 15:38:50Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:48:50
+[2022-07-10 15:39:50Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:49:50
+[2022-07-10 15:40:51Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:50:50
+[2022-07-10 15:41:51Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:51:51
+[2022-07-10 15:42:51Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:52:51
+[2022-07-10 15:43:51Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:53:51
+[2022-07-10 15:44:51Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:54:51
+[2022-07-10 15:45:51Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:55:51
+[2022-07-10 15:46:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:56:53
+[2022-07-10 15:47:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:57:53
+[2022-07-10 15:48:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:58:53
+[2022-07-10 15:49:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 15:59:53
+[2022-07-10 15:50:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:00:53
+[2022-07-10 15:51:53Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:01:53
+[2022-07-10 15:52:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:02:53
+[2022-07-10 15:53:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:03:54
+[2022-07-10 15:54:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:04:54
+[2022-07-10 15:55:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:05:54
+[2022-07-10 15:55:54Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 15:56:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:06:54
+[2022-07-10 15:57:54Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:07:54
+[2022-07-10 15:58:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:08:54
+[2022-07-10 15:59:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:09:55
+[2022-07-10 16:00:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:10:55
+[2022-07-10 16:01:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:11:55
+[2022-07-10 16:02:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:12:55
+[2022-07-10 16:03:55Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:13:55
+[2022-07-10 16:04:56Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:14:55
+[2022-07-10 16:05:56Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:15:56
+[2022-07-10 16:06:56Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:16:56
+[2022-07-10 16:07:56Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:17:56
+[2022-07-10 16:08:56Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:18:56
+[2022-07-10 16:09:56Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:19:56
+[2022-07-10 16:10:56Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:20:56
+[2022-07-10 16:11:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:21:57
+[2022-07-10 16:12:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:22:57
+[2022-07-10 16:13:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:23:57
+[2022-07-10 16:14:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:24:57
+[2022-07-10 16:15:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:25:57
+[2022-07-10 16:16:57Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:26:57
+[2022-07-10 16:17:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:27:58
+[2022-07-10 16:18:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:28:58
+[2022-07-10 16:19:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:29:58
+[2022-07-10 16:20:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:30:58
+[2022-07-10 16:21:49Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d4ffd675-860c-46e1-a90e-caa85b9d9103
+ActivityId: aaf6c727-49e0-415b-99a8-3d6cd306f094
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 0c9904ff-5910-4b73-bc92-5b343bf501df
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 173D9D43F32D492C8C04970291A55A7D Ref B: FRAEDGE1105 Ref C: 2022-07-10T16:21:49Z
+Date: Sun, 10 Jul 2022 16:21:49 GMT
+
+[2022-07-10 16:21:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 16:21:50Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 16:21:58Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:31:58
+[2022-07-10 16:22:59Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:32:58
+[2022-07-10 16:23:59Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:33:59
+[2022-07-10 16:24:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 16:24:53Z INFO MessageListener] Message '6' received from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785'.
+[2022-07-10 16:24:53Z INFO JobDispatcher] Job cancellation request c269f388-e93f-55df-e42c-8ad0a472b48b received, cancellation timeout 5 minutes.
+[2022-07-10 16:24:53Z INFO JobDispatcher] Send job cancellation message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 16:24:53Z INFO ProcessChannel] Sending message of length 0, with hash 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+[2022-07-10 16:25:00Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 07/10/2022 16:34:59
+[2022-07-10 16:25:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 16:25:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 16:25:08Z INFO ProcessInvokerWrapper] Finished process 55224 with exit code 103, and elapsed time 06:00:15.0728412.
+[2022-07-10 16:25:08Z INFO JobDispatcher] finish job request for job c269f388-e93f-55df-e42c-8ad0a472b48b with result: Canceled
+[2022-07-10 16:25:08Z INFO Terminal] WRITE LINE: 2022-07-10 16:25:08Z: Job build (16.x) completed with result: Canceled
+[2022-07-10 16:25:08Z INFO JobDispatcher] Stop renew job request for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 16:25:08Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 25.
+[2022-07-10 16:25:08Z INFO JobNotification] Entering JobCompleted Notification
+[2022-07-10 16:25:08Z INFO JobNotification] Entering EndMonitor
+[2022-07-10 16:54:59Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 17:17:07Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 17:17:07Z INFO MessageListener] Message '7' received from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785'.
+[2022-07-10 17:17:07Z INFO Runner] Received job message of length 20665 from service, with hash '3ba7090fa4781e8a3ac15e553eb2758e9dfa8f841e6178bfc4bdadc99dd17c81'
+[2022-07-10 17:17:07Z INFO JobDispatcher] Job request 26 for plan 7ff0a9f9-3e59-46ef-b7c2-68b5f6678b67 job c269f388-e93f-55df-e42c-8ad0a472b48b received.
+[2022-07-10 17:17:07Z INFO JobDispatcher] Pull OrchestrationId 7ff0a9f9-3e59-46ef-b7c2-68b5f6678b67.build._16_x from JWT claims
+[2022-07-10 17:17:07Z INFO JobDispatcher] Job request c269f388-e93f-55df-e42c-8ad0a472b48b processed succeed.
+[2022-07-10 17:17:07Z INFO Terminal] WRITE LINE: 2022-07-10 17:17:07Z: Running job: build (16.x)
+[2022-07-10 17:17:07Z INFO JobDispatcher] Start renew job request 26 for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 17:17:07Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d4ffd675-860c-46e1-a90e-caa85b9d9103
+ActivityId: aace4d71-49e0-415b-99a8-3d6cd306f094
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 4c973906-c10d-4e04-a633-3d7d2d9b95bf
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: A19E37091F38415D9D37225E67088EB3 Ref B: FRAEDGE1105 Ref C: 2022-07-10T17:17:07Z
+Date: Sun, 10 Jul 2022 17:17:06 GMT
+
+[2022-07-10 17:17:07Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 17:17:07Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 17:17:07Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bb83737e-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 57896f2a-1030-41cb-8bc0-11ffadd57dbc
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 884D2D79BD104780A0A2A1D656580948 Ref B: FRAEDGE1513 Ref C: 2022-07-10T17:17:07Z
+Date: Sun, 10 Jul 2022 17:17:07 GMT
+
+[2022-07-10 17:17:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:27:08
+[2022-07-10 17:17:08Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper] Starting process:
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   File name: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin/Runner.Worker'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 98 113'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   Working directory: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-07-10 17:17:08Z INFO ProcessInvokerWrapper] Process started with process id 60915, waiting for process exit.
+[2022-07-10 17:17:08Z INFO JobDispatcher] Send job request message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 17:17:08Z INFO ProcessChannel] Sending message of length 20665, with hash '3ba7090fa4781e8a3ac15e553eb2758e9dfa8f841e6178bfc4bdadc99dd17c81'
+[2022-07-10 17:17:08Z INFO JobNotification] Entering JobStarted Notification
+[2022-07-10 17:17:08Z INFO JobNotification] Entering StartMonitor
+[2022-07-10 17:18:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:28:08
+[2022-07-10 17:19:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:29:08
+[2022-07-10 17:20:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:30:08
+[2022-07-10 17:21:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:31:08
+[2022-07-10 17:22:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:32:08
+[2022-07-10 17:23:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:33:09
+[2022-07-10 17:24:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:34:09
+[2022-07-10 17:25:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:35:09
+[2022-07-10 17:26:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:36:09
+[2022-07-10 17:27:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:37:09
+[2022-07-10 17:28:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:38:09
+[2022-07-10 17:29:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:39:10
+[2022-07-10 17:30:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:40:10
+[2022-07-10 17:31:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:41:10
+[2022-07-10 17:32:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:42:10
+[2022-07-10 17:33:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:43:10
+[2022-07-10 17:34:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:44:10
+[2022-07-10 17:35:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:45:11
+[2022-07-10 17:36:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:46:11
+[2022-07-10 17:37:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:47:11
+[2022-07-10 17:38:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:48:11
+[2022-07-10 17:39:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:49:11
+[2022-07-10 17:40:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:50:11
+[2022-07-10 17:41:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:51:11
+[2022-07-10 17:42:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:52:12
+[2022-07-10 17:43:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:53:12
+[2022-07-10 17:44:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:54:12
+[2022-07-10 17:45:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:55:12
+[2022-07-10 17:46:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:56:12
+[2022-07-10 17:47:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:57:12
+[2022-07-10 17:47:14Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 17:48:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:58:13
+[2022-07-10 17:49:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 17:59:13
+[2022-07-10 17:50:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:00:13
+[2022-07-10 17:51:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:01:13
+[2022-07-10 17:52:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:02:13
+[2022-07-10 17:53:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:03:13
+[2022-07-10 17:54:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:04:14
+[2022-07-10 17:55:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:05:14
+[2022-07-10 17:56:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:06:14
+[2022-07-10 17:57:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:07:14
+[2022-07-10 17:58:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:08:14
+[2022-07-10 17:59:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:09:14
+[2022-07-10 18:00:15Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:10:15
+[2022-07-10 18:01:15Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:11:15
+[2022-07-10 18:02:15Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:12:15
+[2022-07-10 18:03:15Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:13:15
+[2022-07-10 18:04:15Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:14:15
+[2022-07-10 18:05:15Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:15:15
+[2022-07-10 18:06:16Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:16:16
+[2022-07-10 18:07:16Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:17:16
+[2022-07-10 18:08:16Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:18:16
+[2022-07-10 18:09:17Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:19:16
+[2022-07-10 18:10:17Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:20:17
+[2022-07-10 18:11:17Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:21:17
+[2022-07-10 18:12:17Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 26e69d0a-4f72-4780-815b-8891fe341531
+ActivityId: 40ed8be5-c483-401a-804b-ac3ec022a5ac
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: f1674ac4-4340-4d28-a429-3a700e59ff3a
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 826A45F0370642E187084897CE213BD6 Ref B: FRAEDGE1513 Ref C: 2022-07-10T18:12:17Z
+Date: Sun, 10 Jul 2022 18:12:17 GMT
+
+[2022-07-10 18:12:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 18:12:18Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bb8a0002-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 294c6b2e-7aaa-47f8-aeba-e083ce34debf
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 2625481D44BE47C1A7049B641FCABEE3 Ref B: FRAEDGE1105 Ref C: 2022-07-10T18:12:18Z
+Date: Sun, 10 Jul 2022 18:12:18 GMT
+
+[2022-07-10 18:12:18Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 18:12:18Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:22:18
+[2022-07-10 18:13:18Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:23:18
+[2022-07-10 18:14:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:24:18
+[2022-07-10 18:15:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:25:19
+[2022-07-10 18:16:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:26:19
+[2022-07-10 18:17:19Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 18:17:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:27:19
+[2022-07-10 18:18:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:28:19
+[2022-07-10 18:19:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:29:19
+[2022-07-10 18:20:20Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:30:19
+[2022-07-10 18:21:20Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:31:20
+[2022-07-10 18:22:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:32:20
+[2022-07-10 18:23:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:33:21
+[2022-07-10 18:24:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:34:21
+[2022-07-10 18:25:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:35:21
+[2022-07-10 18:26:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:36:21
+[2022-07-10 18:27:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:37:21
+[2022-07-10 18:28:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:38:21
+[2022-07-10 18:29:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:39:21
+[2022-07-10 18:30:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:40:22
+[2022-07-10 18:31:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:41:22
+[2022-07-10 18:32:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:42:22
+[2022-07-10 18:33:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:43:22
+[2022-07-10 18:34:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:44:22
+[2022-07-10 18:35:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:45:22
+[2022-07-10 18:36:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:46:23
+[2022-07-10 18:37:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:47:23
+[2022-07-10 18:38:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:48:23
+[2022-07-10 18:39:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:49:23
+[2022-07-10 18:40:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:50:24
+[2022-07-10 18:41:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:51:24
+[2022-07-10 18:42:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:52:24
+[2022-07-10 18:43:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:53:24
+[2022-07-10 18:44:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:54:24
+[2022-07-10 18:45:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:55:24
+[2022-07-10 18:46:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:56:25
+[2022-07-10 18:47:23Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 18:47:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:57:25
+[2022-07-10 18:48:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:58:25
+[2022-07-10 18:49:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 18:59:25
+[2022-07-10 18:50:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:00:25
+[2022-07-10 18:51:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:01:25
+[2022-07-10 18:52:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:02:26
+[2022-07-10 18:53:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:03:26
+[2022-07-10 18:54:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:04:26
+[2022-07-10 18:55:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:05:26
+[2022-07-10 18:56:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:06:26
+[2022-07-10 18:57:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:07:26
+[2022-07-10 18:58:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:08:27
+[2022-07-10 18:59:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:09:27
+[2022-07-10 19:00:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:10:27
+[2022-07-10 19:01:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:11:27
+[2022-07-10 19:02:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:12:27
+[2022-07-10 19:03:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:13:27
+[2022-07-10 19:04:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:14:28
+[2022-07-10 19:05:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:15:28
+[2022-07-10 19:06:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:16:28
+[2022-07-10 19:07:27Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bbb03248-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 1ce98d59-051b-4e5f-8458-ce954a37fad2
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 84757743216F4E39B84048E907A4321B Ref B: FRAEDGE1105 Ref C: 2022-07-10T19:07:26Z
+Date: Sun, 10 Jul 2022 19:07:26 GMT
+
+[2022-07-10 19:07:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 19:07:27Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 19:07:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:17:28
+[2022-07-10 19:08:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:18:28
+[2022-07-10 19:09:29Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:19:29
+[2022-07-10 19:10:29Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:20:29
+[2022-07-10 19:11:29Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:21:29
+[2022-07-10 19:12:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:22:29
+[2022-07-10 19:13:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:23:30
+[2022-07-10 19:14:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:24:30
+[2022-07-10 19:15:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:25:30
+[2022-07-10 19:16:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:26:30
+[2022-07-10 19:17:28Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 19:17:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:27:30
+[2022-07-10 19:18:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:28:31
+[2022-07-10 19:19:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:29:31
+[2022-07-10 19:20:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:30:31
+[2022-07-10 19:21:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:31:31
+[2022-07-10 19:22:32Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:32:31
+[2022-07-10 19:23:32Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:33:32
+[2022-07-10 19:24:32Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:34:32
+[2022-07-10 19:25:33Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:35:32
+[2022-07-10 19:26:33Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:36:33
+[2022-07-10 19:27:33Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:37:33
+[2022-07-10 19:28:33Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:38:33
+[2022-07-10 19:29:33Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:39:33
+[2022-07-10 19:30:33Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:40:33
+[2022-07-10 19:31:34Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:41:33
+[2022-07-10 19:32:34Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:42:34
+[2022-07-10 19:33:34Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:43:34
+[2022-07-10 19:34:34Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:44:34
+[2022-07-10 19:35:34Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:45:34
+[2022-07-10 19:36:34Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:46:34
+[2022-07-10 19:37:34Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:47:34
+[2022-07-10 19:38:35Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:48:35
+[2022-07-10 19:39:35Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:49:35
+[2022-07-10 19:40:35Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:50:35
+[2022-07-10 19:41:35Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:51:35
+[2022-07-10 19:42:35Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:52:35
+[2022-07-10 19:43:36Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:53:36
+[2022-07-10 19:44:36Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:54:36
+[2022-07-10 19:45:36Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:55:36
+[2022-07-10 19:46:36Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:56:36
+[2022-07-10 19:47:34Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 19:47:36Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:57:36
+[2022-07-10 19:48:36Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:58:36
+[2022-07-10 19:49:36Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 19:59:36
+[2022-07-10 19:50:37Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:00:37
+[2022-07-10 19:51:37Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:01:37
+[2022-07-10 19:52:37Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:02:37
+[2022-07-10 19:53:37Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:03:37
+[2022-07-10 19:54:37Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:04:37
+[2022-07-10 19:55:37Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:05:37
+[2022-07-10 19:56:38Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:06:38
+[2022-07-10 19:57:38Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:07:38
+[2022-07-10 19:58:38Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:08:38
+[2022-07-10 19:59:38Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:09:38
+[2022-07-10 20:00:38Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:10:38
+[2022-07-10 20:01:41Z WARN GitHubActionsService] Attempt 1 of PATCH request to https://pipelines.actions.githubusercontent.com/AuYE7zpLwZz53yuqKqKnzQ0pIxqNa5w1iU0sGV5oFkgXPFr1Xe/_apis/distributedtask/pools/1/jobrequests/26?lockToken=00000000-0000-0000-0000-000000000000 failed (HTTP Status: ServiceUnavailable, AFD Ref: Ref A: 469BF2DCD19F4E29AB609C951B8BF294 Ref B: FRAEDGE1513 Ref C: 2022-07-10T20:01:38Z). The operation will be retried in 10.845 seconds.
+[2022-07-10 20:01:52Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:11:52
+[2022-07-10 20:02:36Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bbbed05d-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 1c11a525-1972-4ff7-8f0c-d520bc3333f4
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: C9DC79FA319549728D082758731C4F06 Ref B: FRAEDGE1105 Ref C: 2022-07-10T20:02:36Z
+Date: Sun, 10 Jul 2022 20:02:36 GMT
+
+[2022-07-10 20:02:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 20:02:36Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 20:02:52Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:12:52
+[2022-07-10 20:03:52Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:13:52
+[2022-07-10 20:04:52Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:14:52
+[2022-07-10 20:05:52Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:15:52
+[2022-07-10 20:06:52Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:16:52
+[2022-07-10 20:07:53Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:17:52
+[2022-07-10 20:08:53Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:18:53
+[2022-07-10 20:09:53Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:19:53
+[2022-07-10 20:10:53Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:20:53
+[2022-07-10 20:11:53Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:21:53
+[2022-07-10 20:12:54Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:22:54
+[2022-07-10 20:13:54Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:23:54
+[2022-07-10 20:14:54Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:24:54
+[2022-07-10 20:15:54Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:25:54
+[2022-07-10 20:16:54Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:26:54
+[2022-07-10 20:17:39Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 20:17:55Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:27:55
+[2022-07-10 20:18:55Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:28:55
+[2022-07-10 20:19:55Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:29:55
+[2022-07-10 20:20:55Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:30:55
+[2022-07-10 20:21:55Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:31:55
+[2022-07-10 20:22:55Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:32:55
+[2022-07-10 20:23:56Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:33:55
+[2022-07-10 20:24:56Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:34:56
+[2022-07-10 20:25:56Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:35:56
+[2022-07-10 20:26:56Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:36:56
+[2022-07-10 20:27:56Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:37:56
+[2022-07-10 20:28:56Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:38:56
+[2022-07-10 20:29:56Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:39:56
+[2022-07-10 20:30:57Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:40:57
+[2022-07-10 20:31:57Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:41:57
+[2022-07-10 20:32:57Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:42:57
+[2022-07-10 20:33:58Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:43:57
+[2022-07-10 20:34:58Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:44:58
+[2022-07-10 20:35:59Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:45:59
+[2022-07-10 20:36:59Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:46:59
+[2022-07-10 20:37:59Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:47:59
+[2022-07-10 20:38:59Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:48:59
+[2022-07-10 20:40:00Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:49:59
+[2022-07-10 20:41:00Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:51:00
+[2022-07-10 20:42:00Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:52:00
+[2022-07-10 20:43:00Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:53:00
+[2022-07-10 20:44:00Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:54:00
+[2022-07-10 20:45:01Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:55:01
+[2022-07-10 20:46:01Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:56:01
+[2022-07-10 20:47:01Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:57:01
+[2022-07-10 20:47:44Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 20:48:01Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:58:01
+[2022-07-10 20:49:01Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 20:59:01
+[2022-07-10 20:50:02Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:00:02
+[2022-07-10 20:51:02Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:01:02
+[2022-07-10 20:52:02Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:02:02
+[2022-07-10 20:53:02Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:03:02
+[2022-07-10 20:54:03Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:04:02
+[2022-07-10 20:55:03Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:05:03
+[2022-07-10 20:56:03Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:06:03
+[2022-07-10 20:57:03Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:07:03
+[2022-07-10 20:57:46Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 26e69d0a-4f72-4780-815b-8891fe341531
+ActivityId: 40f894a0-c483-401a-804b-ac3ec022a5ac
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 3e788cce-2c86-4a07-9418-2fad0196eb91
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: D61CD55B43B248739E255A46D3CB31CA Ref B: FRAEDGE1105 Ref C: 2022-07-10T20:57:45Z
+Date: Sun, 10 Jul 2022 20:57:45 GMT
+
+[2022-07-10 20:57:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 20:57:46Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 20:58:03Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:08:03
+[2022-07-10 20:59:03Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:09:03
+[2022-07-10 21:00:03Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:10:03
+[2022-07-10 21:01:04Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:11:04
+[2022-07-10 21:02:04Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:12:04
+[2022-07-10 21:03:04Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:13:04
+[2022-07-10 21:04:04Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:14:04
+[2022-07-10 21:05:04Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:15:04
+[2022-07-10 21:06:05Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:16:05
+[2022-07-10 21:07:05Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:17:05
+[2022-07-10 21:08:05Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:18:05
+[2022-07-10 21:09:05Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:19:05
+[2022-07-10 21:10:06Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:20:05
+[2022-07-10 21:11:06Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:21:06
+[2022-07-10 21:12:06Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:22:06
+[2022-07-10 21:13:06Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:23:06
+[2022-07-10 21:14:06Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:24:06
+[2022-07-10 21:15:07Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:25:07
+[2022-07-10 21:16:07Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:26:07
+[2022-07-10 21:17:07Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:27:07
+[2022-07-10 21:17:49Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 21:18:07Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:28:07
+[2022-07-10 21:19:07Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:29:07
+[2022-07-10 21:20:07Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:30:07
+[2022-07-10 21:21:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:31:08
+[2022-07-10 21:22:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:32:08
+[2022-07-10 21:23:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:33:08
+[2022-07-10 21:24:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:34:08
+[2022-07-10 21:25:08Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:35:08
+[2022-07-10 21:26:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:36:08
+[2022-07-10 21:27:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:37:09
+[2022-07-10 21:28:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:38:09
+[2022-07-10 21:29:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:39:09
+[2022-07-10 21:30:09Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:40:09
+[2022-07-10 21:31:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:41:10
+[2022-07-10 21:32:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:42:10
+[2022-07-10 21:33:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:43:10
+[2022-07-10 21:34:10Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:44:10
+[2022-07-10 21:35:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:45:10
+[2022-07-10 21:36:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:46:11
+[2022-07-10 21:37:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:47:11
+[2022-07-10 21:38:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:48:11
+[2022-07-10 21:39:11Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:49:11
+[2022-07-10 21:40:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:50:12
+[2022-07-10 21:41:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:51:12
+[2022-07-10 21:42:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:52:12
+[2022-07-10 21:43:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:53:12
+[2022-07-10 21:44:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:54:12
+[2022-07-10 21:45:12Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:55:12
+[2022-07-10 21:46:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:56:13
+[2022-07-10 21:47:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:57:13
+[2022-07-10 21:47:54Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 21:48:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:58:13
+[2022-07-10 21:49:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 21:59:13
+[2022-07-10 21:50:13Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:00:13
+[2022-07-10 21:51:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:01:14
+[2022-07-10 21:52:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:02:14
+[2022-07-10 21:52:55Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 26e69d0a-4f72-4780-815b-8891fe341531
+ActivityId: 40f6fd57-c483-401a-804b-ac3ec022a5ac
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: f59b4e35-b649-4115-acb9-7ae6cf24bb6b
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 10D549B0721340C8A4E05D1044072FDD Ref B: FRAEDGE1105 Ref C: 2022-07-10T21:52:55Z
+Date: Sun, 10 Jul 2022 21:52:54 GMT
+
+[2022-07-10 21:52:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 21:52:55Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 21:53:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:03:14
+[2022-07-10 21:54:14Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:04:14
+[2022-07-10 21:55:15Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:05:14
+[2022-07-10 21:56:15Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:06:15
+[2022-07-10 21:57:15Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:07:15
+[2022-07-10 21:58:16Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:08:15
+[2022-07-10 21:59:17Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:09:16
+[2022-07-10 22:00:17Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:10:17
+[2022-07-10 22:01:17Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:11:17
+[2022-07-10 22:02:17Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:12:17
+[2022-07-10 22:03:17Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:13:17
+[2022-07-10 22:04:18Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:14:18
+[2022-07-10 22:05:18Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:15:18
+[2022-07-10 22:06:18Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:16:18
+[2022-07-10 22:07:18Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:17:18
+[2022-07-10 22:08:18Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:18:18
+[2022-07-10 22:09:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:19:19
+[2022-07-10 22:10:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:20:19
+[2022-07-10 22:11:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:21:19
+[2022-07-10 22:12:19Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:22:19
+[2022-07-10 22:13:20Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:23:19
+[2022-07-10 22:14:20Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:24:20
+[2022-07-10 22:15:20Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:25:20
+[2022-07-10 22:16:20Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:26:20
+[2022-07-10 22:17:20Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:27:20
+[2022-07-10 22:17:59Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 22:18:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:28:21
+[2022-07-10 22:19:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:29:21
+[2022-07-10 22:20:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:30:21
+[2022-07-10 22:21:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:31:21
+[2022-07-10 22:22:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:32:21
+[2022-07-10 22:23:21Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:33:21
+[2022-07-10 22:24:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:34:22
+[2022-07-10 22:25:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:35:22
+[2022-07-10 22:26:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:36:22
+[2022-07-10 22:27:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:37:22
+[2022-07-10 22:28:22Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:38:22
+[2022-07-10 22:29:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:39:22
+[2022-07-10 22:30:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:40:23
+[2022-07-10 22:31:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:41:23
+[2022-07-10 22:32:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:42:23
+[2022-07-10 22:33:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:43:23
+[2022-07-10 22:34:23Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:44:23
+[2022-07-10 22:35:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:45:24
+[2022-07-10 22:36:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:46:24
+[2022-07-10 22:37:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:47:24
+[2022-07-10 22:38:24Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:48:24
+[2022-07-10 22:39:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:49:24
+[2022-07-10 22:40:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:50:25
+[2022-07-10 22:41:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:51:25
+[2022-07-10 22:42:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:52:25
+[2022-07-10 22:43:25Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:53:25
+[2022-07-10 22:44:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:54:25
+[2022-07-10 22:45:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:55:26
+[2022-07-10 22:46:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:56:26
+[2022-07-10 22:47:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:57:26
+[2022-07-10 22:48:04Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-10 22:48:04Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c58fe60b-875c-4972-955f-c35d7ebf110f
+ActivityId: bea394d3-c04d-459c-b993-f0aa43daaee9
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 57959a09-2b2d-405b-8462-01ac6474f3a1
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: A3BBAC8007804401B62FC4CEA163613C Ref B: FRAEDGE1105 Ref C: 2022-07-10T22:48:04Z
+Date: Sun, 10 Jul 2022 22:48:04 GMT
+
+[2022-07-10 22:48:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 22:48:05Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 22:48:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:58:26
+[2022-07-10 22:49:26Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 22:59:26
+[2022-07-10 22:50:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:00:27
+[2022-07-10 22:51:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:01:27
+[2022-07-10 22:52:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:02:27
+[2022-07-10 22:53:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:03:27
+[2022-07-10 22:54:27Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:04:27
+[2022-07-10 22:55:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:05:27
+[2022-07-10 22:56:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:06:28
+[2022-07-10 22:57:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:07:28
+[2022-07-10 22:58:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:08:28
+[2022-07-10 22:59:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:09:28
+[2022-07-10 23:00:29Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:10:29
+[2022-07-10 23:01:29Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:11:29
+[2022-07-10 23:02:29Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:12:29
+[2022-07-10 23:03:29Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:13:29
+[2022-07-10 23:04:29Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:14:29
+[2022-07-10 23:05:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:15:30
+[2022-07-10 23:06:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:16:30
+[2022-07-10 23:07:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:17:30
+[2022-07-10 23:08:30Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:18:30
+[2022-07-10 23:09:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:19:30
+[2022-07-10 23:10:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:20:31
+[2022-07-10 23:11:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:21:31
+[2022-07-10 23:12:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:22:31
+[2022-07-10 23:13:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:23:31
+[2022-07-10 23:14:31Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:24:31
+[2022-07-10 23:15:32Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:25:32
+[2022-07-10 23:16:32Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 07/10/2022 23:26:32
+[2022-07-10 23:17:08Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 23:17:08Z INFO MessageListener] Message '8' received from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785'.
+[2022-07-10 23:17:08Z INFO JobDispatcher] Job cancellation request c269f388-e93f-55df-e42c-8ad0a472b48b received, cancellation timeout 5 minutes.
+[2022-07-10 23:17:08Z INFO JobDispatcher] Send job cancellation message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 23:17:08Z INFO ProcessChannel] Sending message of length 0, with hash 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+[2022-07-10 23:17:23Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 23:17:23Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-10 23:17:23Z INFO ProcessInvokerWrapper] Finished process 60915 with exit code 103, and elapsed time 06:00:15.8686489.
+[2022-07-10 23:17:23Z INFO JobDispatcher] finish job request for job c269f388-e93f-55df-e42c-8ad0a472b48b with result: Canceled
+[2022-07-10 23:17:23Z INFO Terminal] WRITE LINE: 2022-07-10 23:17:23Z: Job build (16.x) completed with result: Canceled
+[2022-07-10 23:17:23Z INFO JobDispatcher] Stop renew job request for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-10 23:17:23Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 26.
+[2022-07-10 23:17:23Z INFO JobNotification] Entering JobCompleted Notification
+[2022-07-10 23:17:23Z INFO JobNotification] Entering EndMonitor
+[2022-07-10 23:43:54Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bb50bd9e-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 68ed6b7b-0437-432d-8110-c3872a53ff55
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: B60D795A46C14D3989E684EA5829BA48 Ref B: FRAEDGE1105 Ref C: 2022-07-10T23:43:54Z
+Date: Sun, 10 Jul 2022 23:43:54 GMT
+
+[2022-07-10 23:43:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-10 23:43:54Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-10 23:47:15Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 00:17:19Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 00:39:04Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c58fe60b-875c-4972-955f-c35d7ebf110f
+ActivityId: beb1f30d-c04d-459c-b993-f0aa43daaee9
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 3040fadf-742a-4256-877a-00e376734abe
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 3F0E992D886140A2B749D7B42BCE2B2C Ref B: FRAEDGE1105 Ref C: 2022-07-11T00:39:03Z
+Date: Mon, 11 Jul 2022 00:39:03 GMT
+
+[2022-07-11 00:39:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 00:39:04Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 00:47:25Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 01:17:30Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 01:34:13Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bb46aa98-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: f09c09e8-b1a5-44aa-8442-4f5a2aecd0d2
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 729063D39C3B4A2387B0B10741234E4D Ref B: FRAEDGE1105 Ref C: 2022-07-11T01:34:13Z
+Date: Mon, 11 Jul 2022 01:34:13 GMT
+
+[2022-07-11 01:34:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 01:34:13Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 01:47:36Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 02:17:41Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 02:29:23Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c58fe60b-875c-4972-955f-c35d7ebf110f
+ActivityId: bebecb2c-c04d-459c-b993-f0aa43daaee9
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 78a0615e-8dd9-4855-a188-e77fd53252ae
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 9A3C37FFCA2E4DF4B04974A446919E0E Ref B: FRAEDGE1105 Ref C: 2022-07-11T02:29:23Z
+Date: Mon, 11 Jul 2022 02:29:22 GMT
+
+[2022-07-11 02:29:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 02:29:23Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 02:47:46Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 03:17:51Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 03:24:32Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 26e69d0a-4f72-4780-815b-8891fe341531
+ActivityId: 4029dc36-c483-401a-804b-ac3ec022a5ac
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: af840e12-ea50-4fc2-b011-3be4b8b22787
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 803FF162B5A040BCB2FFF89DBC061447 Ref B: FRAEDGE1105 Ref C: 2022-07-11T03:24:32Z
+Date: Mon, 11 Jul 2022 03:24:32 GMT
+
+[2022-07-11 03:24:32Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 03:24:32Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 03:47:56Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 04:18:01Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 04:19:42Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c58fe60b-875c-4972-955f-c35d7ebf110f
+ActivityId: be8e822d-c04d-459c-b993-f0aa43daaee9
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 7465ab35-9c49-40d6-9a2c-9f051fde47dd
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 1918DFDE868C4DEF91C2422CCF7248E2 Ref B: FRAEDGE1105 Ref C: 2022-07-11T04:19:42Z
+Date: Mon, 11 Jul 2022 04:19:41 GMT
+
+[2022-07-11 04:19:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 04:19:42Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 04:48:07Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 05:14:51Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bb6610db-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: bf9fba0d-0fd3-4c5f-bc62-b534d4895ba2
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 7D8F470023C042BC982FCB40F5D8038C Ref B: FRAEDGE1105 Ref C: 2022-07-11T05:14:51Z
+Date: Mon, 11 Jul 2022 05:14:51 GMT
+
+[2022-07-11 05:14:51Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 05:14:52Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 05:18:12Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 05:48:17Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 06:10:01Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c58fe60b-875c-4972-955f-c35d7ebf110f
+ActivityId: be9de9b9-c04d-459c-b993-f0aa43daaee9
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 2021d473-c3f2-468c-98b1-4a7c4fcebad6
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 43868C252DC549D796358E517D9A8874 Ref B: FRAEDGE1105 Ref C: 2022-07-11T06:10:00Z
+Date: Mon, 11 Jul 2022 06:10:00 GMT
+
+[2022-07-11 06:10:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 06:10:01Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 06:18:22Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 06:48:27Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 07:05:09Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 0c87ae1c-3415-49cc-992a-0c50da3a87d4
+ActivityId: 3a33768d-6f1d-4a46-a856-de4eacd7f278
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 91e5c9fb-9b04-4fa0-876e-6c0961a1673b
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: C0E600E7C07C483D8D833730B9C7D68A Ref B: FRAEDGE1105 Ref C: 2022-07-11T07:05:09Z
+Date: Mon, 11 Jul 2022 07:05:09 GMT
+
+[2022-07-11 07:05:09Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 07:05:10Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 07:18:32Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 07:48:37Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 08:00:19Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bb135c73-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: d071bb7d-d88e-4a5e-a1b5-0e9f83fb133f
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: AD6ABEBC1A0F4E83994458790CF2F5FF Ref B: FRAEDGE1105 Ref C: 2022-07-11T08:00:19Z
+Date: Mon, 11 Jul 2022 08:00:19 GMT
+
+[2022-07-11 08:00:19Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 08:00:19Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 08:18:43Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 08:48:48Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 08:55:29Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 0c87ae1c-3415-49cc-992a-0c50da3a87d4
+ActivityId: 3a2288fe-6f1d-4a46-a856-de4eacd7f278
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: c376c694-2707-4796-8d47-19813aec95e3
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 8FF50D0BE16E45028957008B449BD4D5 Ref B: FRAEDGE1105 Ref C: 2022-07-11T08:55:29Z
+Date: Mon, 11 Jul 2022 08:55:28 GMT
+
+[2022-07-11 08:55:29Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 08:55:29Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 09:18:53Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 09:48:58Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 09:50:39Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bb0c6e6c-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 4333fd17-49b1-41e5-9838-8a6bbba424a2
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 889AC2AD74FD4529A8F069DED16ACD0A Ref B: FRAEDGE1105 Ref C: 2022-07-11T09:50:38Z
+Date: Mon, 11 Jul 2022 09:50:38 GMT
+
+[2022-07-11 09:50:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 09:50:39Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 10:19:03Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 10:45:48Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 26e69d0a-4f72-4780-815b-8891fe341531
+ActivityId: 40684414-c483-401a-804b-ac3ec022a5ac
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 80a5a2fe-f169-412f-a370-52e138ae0147
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 7B351620821C46B3872E5C1254D39ABA Ref B: FRAEDGE1105 Ref C: 2022-07-11T10:45:48Z
+Date: Mon, 11 Jul 2022 10:45:47 GMT
+
+[2022-07-11 10:45:48Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 10:45:48Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 10:49:08Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 11:19:13Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 11:40:57Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 26e69d0a-4f72-4780-815b-8891fe341531
+ActivityId: 40616e99-c483-401a-804b-ac3ec022a5ac
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 1e30cd2b-9e92-4c83-8888-ad1fa64326fb
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: D72074B08F3C401FA2AC032A6975E6DD Ref B: FRAEDGE1105 Ref C: 2022-07-11T11:40:57Z
+Date: Mon, 11 Jul 2022 11:40:57 GMT
+
+[2022-07-11 11:40:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 11:40:57Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 11:49:18Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 12:19:23Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 12:36:06Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: c58fe60b-875c-4972-955f-c35d7ebf110f
+ActivityId: bed9dcb2-c04d-459c-b993-f0aa43daaee9
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 11eba41d-4f12-4d9a-8851-9e01810e2fe0
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 004415BF0E4B481088283702432DEE91 Ref B: FRAEDGE1105 Ref C: 2022-07-11T12:36:06Z
+Date: Mon, 11 Jul 2022 12:36:06 GMT
+
+[2022-07-11 12:36:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 12:36:07Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 12:49:29Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 13:19:34Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 13:31:16Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 26e69d0a-4f72-4780-815b-8891fe341531
+ActivityId: 418d254e-c483-401a-804b-ac3ec022a5ac
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 7cc58ad5-90ab-47ee-b157-80d60bc2e378
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: B19E8583EADE48728B7C2053026CEF9E Ref B: FRAEDGE1105 Ref C: 2022-07-11T13:31:16Z
+Date: Mon, 11 Jul 2022 13:31:16 GMT
+
+[2022-07-11 13:31:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 13:31:16Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 13:49:39Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 13:58:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 13:58:47Z INFO MessageListener] Message '9' received from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785'.
+[2022-07-11 13:58:47Z INFO Runner] Received job message of length 20665 from service, with hash 'f825ad39a92302541c2e2cbfb7b21334f7225a0f9affe51b27b0f2fdf5ca6fb8'
+[2022-07-11 13:58:47Z INFO JobDispatcher] Job request 27 for plan 7a7a6fe5-011c-4b27-93a8-18838987bd7f job c269f388-e93f-55df-e42c-8ad0a472b48b received.
+[2022-07-11 13:58:47Z INFO JobDispatcher] Pull OrchestrationId 7a7a6fe5-011c-4b27-93a8-18838987bd7f.build._16_x from JWT claims
+[2022-07-11 13:58:47Z INFO JobDispatcher] Job request c269f388-e93f-55df-e42c-8ad0a472b48b processed succeed.
+[2022-07-11 13:58:47Z INFO Terminal] WRITE LINE: 2022-07-11 13:58:47Z: Running job: build (16.x)
+[2022-07-11 13:58:47Z INFO JobDispatcher] Start renew job request 27 for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-11 13:58:48Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:08:48
+[2022-07-11 13:58:48Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper] Starting process:
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   File name: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin/Runner.Worker'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 111 116'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   Working directory: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-07-11 13:58:48Z INFO ProcessInvokerWrapper] Process started with process id 78121, waiting for process exit.
+[2022-07-11 13:58:48Z INFO JobDispatcher] Send job request message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-11 13:58:48Z INFO ProcessChannel] Sending message of length 20665, with hash 'f825ad39a92302541c2e2cbfb7b21334f7225a0f9affe51b27b0f2fdf5ca6fb8'
+[2022-07-11 13:58:48Z INFO JobNotification] Entering JobStarted Notification
+[2022-07-11 13:58:48Z INFO JobNotification] Entering StartMonitor
+[2022-07-11 13:59:48Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:09:48
+[2022-07-11 14:00:49Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:10:48
+[2022-07-11 14:01:49Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:11:49
+[2022-07-11 14:02:49Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:12:49
+[2022-07-11 14:03:49Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:13:49
+[2022-07-11 14:04:49Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:14:49
+[2022-07-11 14:05:50Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:15:50
+[2022-07-11 14:06:50Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:16:50
+[2022-07-11 14:07:50Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:17:50
+[2022-07-11 14:08:50Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:18:50
+[2022-07-11 14:09:50Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:19:50
+[2022-07-11 14:10:50Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:20:50
+[2022-07-11 14:11:51Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:21:51
+[2022-07-11 14:12:51Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:22:51
+[2022-07-11 14:13:51Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:23:51
+[2022-07-11 14:14:51Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:24:51
+[2022-07-11 14:15:52Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:25:51
+[2022-07-11 14:16:52Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:26:52
+[2022-07-11 14:17:52Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:27:52
+[2022-07-11 14:18:52Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:28:52
+[2022-07-11 14:19:52Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:29:52
+[2022-07-11 14:20:53Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:30:53
+[2022-07-11 14:21:53Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:31:53
+[2022-07-11 14:22:53Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:32:53
+[2022-07-11 14:23:53Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:33:53
+[2022-07-11 14:24:53Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:34:53
+[2022-07-11 14:25:53Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:35:53
+[2022-07-11 14:26:23Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: d64f38d7-816e-414a-8024-d00f97c1b135
+ActivityId: bad22195-b1be-49c9-82f9-aaa88c22c41e
+X-TFS-Session: 3507cc81-69ae-44b5-9694-3eafef8f772f
+X-VSS-E2EID: 7e61eb27-e135-444f-9035-202e50aae0ff
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 414DD2C8C6EF4B928572B1024FB005D3 Ref B: FRAEDGE1105 Ref C: 2022-07-11T14:26:23Z
+Date: Mon, 11 Jul 2022 14:26:23 GMT
+
+[2022-07-11 14:26:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-11 14:26:25Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-11 14:26:54Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:36:53
+[2022-07-11 14:27:54Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:37:54
+[2022-07-11 14:28:54Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:38:54
+[2022-07-11 14:28:55Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 14:29:54Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:39:54
+[2022-07-11 14:30:55Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:40:54
+[2022-07-11 14:31:55Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:41:55
+[2022-07-11 14:32:55Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:42:55
+[2022-07-11 14:33:55Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:43:55
+[2022-07-11 14:34:55Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:44:55
+[2022-07-11 14:35:55Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:45:55
+[2022-07-11 14:36:56Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:46:56
+[2022-07-11 14:37:56Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:47:56
+[2022-07-11 14:38:56Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:48:56
+[2022-07-11 14:39:56Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:49:56
+[2022-07-11 14:40:56Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:50:56
+[2022-07-11 14:41:56Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:51:56
+[2022-07-11 14:42:57Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:52:57
+[2022-07-11 14:43:58Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:53:57
+[2022-07-11 14:44:58Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:54:58
+[2022-07-11 14:45:58Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:55:58
+[2022-07-11 14:46:58Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:56:58
+[2022-07-11 14:47:58Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:57:58
+[2022-07-11 14:48:59Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:58:59
+[2022-07-11 14:49:59Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 14:59:59
+[2022-07-11 14:50:59Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:00:59
+[2022-07-11 14:51:59Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:01:59
+[2022-07-11 14:52:59Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:02:59
+[2022-07-11 14:53:59Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:03:59
+[2022-07-11 14:55:00Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:05:00
+[2022-07-11 14:56:00Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:06:00
+[2022-07-11 14:57:00Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:07:00
+[2022-07-11 14:58:00Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:08:00
+[2022-07-11 14:59:00Z INFO MessageListener] No message retrieved from session 'd87c8abb-7d8a-4d21-b7ea-a25f0a016785' within last 30 minutes.
+[2022-07-11 14:59:01Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:09:00
+[2022-07-11 15:00:02Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:10:01
+[2022-07-11 15:01:03Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:11:02
+[2022-07-11 15:02:03Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:12:03
+[2022-07-11 15:03:03Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:13:03
+[2022-07-11 15:04:03Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:14:03
+[2022-07-11 15:05:03Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:15:03
+[2022-07-11 15:06:03Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:16:03
+[2022-07-11 15:07:04Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:17:04
+[2022-07-11 15:08:04Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:18:04
+[2022-07-11 15:09:04Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:19:04
+[2022-07-11 15:10:04Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:20:04
+[2022-07-11 15:10:51Z INFO Terminal] WRITE LINE: Exiting...
+[2022-07-11 15:10:51Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-07-11 15:10:51Z INFO ConfigurationStore] IsServiceConfigured: True
+[2022-07-11 15:10:51Z INFO Runner] Received Ctrl-C signal, stop Runner.Listener and Runner.Worker.
+[2022-07-11 15:10:51Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2022-07-11 15:10:51Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/AuYE7zpLwZz53yuqKqKnzQ0pIxqNa5w1iU0sGV5oFkgXPFr1Xe/_apis/distributedtask/pools/1/messages?sessionId=d87c8abb-7d8a-4d21-b7ea-a25f0a016785&lastMessageId=9 has been cancelled.
+[2022-07-11 15:10:51Z INFO MessageListener] Get next message has been cancelled.
+[2022-07-11 15:10:51Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2022-07-11 15:10:51Z INFO JobDispatcher] Ensure WorkerDispather for job c269f388-e93f-55df-e42c-8ad0a472b48b run to finish, cancel any running job.
+[2022-07-11 15:10:51Z INFO JobDispatcher] Send job cancellation message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-11 15:10:51Z INFO ProcessChannel] Sending message of length 0, with hash 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+[2022-07-11 15:11:04Z INFO JobDispatcher] Successfully renew job request 27, job is valid till 07/11/2022 15:21:04
+[2022-07-11 15:11:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-11 15:11:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-11 15:11:06Z INFO ProcessInvokerWrapper] Finished process 78121 with exit code 102, and elapsed time 01:12:18.0441426.
+[2022-07-11 15:11:06Z INFO JobDispatcher] finish job request for job c269f388-e93f-55df-e42c-8ad0a472b48b with result: Canceled
+[2022-07-11 15:11:06Z INFO Terminal] WRITE LINE: 2022-07-11 15:11:06Z: Job build (16.x) completed with result: Canceled
+[2022-07-11 15:11:06Z INFO JobDispatcher] Stop renew job request for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-11 15:11:06Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 27.
+[2022-07-11 15:11:06Z INFO JobNotification] Entering JobCompleted Notification
+[2022-07-11 15:11:06Z INFO JobNotification] Entering EndMonitor
+[2022-07-11 15:11:06Z INFO Listener] Runner execution been cancelled.

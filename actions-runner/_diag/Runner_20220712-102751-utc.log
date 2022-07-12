@@ -1,0 +1,202 @@
+[2022-07-12 10:27:51Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-07-12 10:27:51Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:51Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:51Z INFO HostContext] Well known config file 'Credentials': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials'
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:52Z INFO HostContext] Well known config file 'Runner': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.runner'
+[2022-07-12 10:27:52Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2022-07-12 10:27:52Z INFO Listener] RuntimeInformation: Linux 5.4.0-113-generic #127-Ubuntu SMP Wed May 18 14:30:56 UTC 2022.
+[2022-07-12 10:27:52Z INFO Listener] Version: 2.294.0
+[2022-07-12 10:27:52Z INFO Listener] Commit: 709bd6113d2fca3a89a0fef11913ce4efd7b8cc5
+[2022-07-12 10:27:52Z INFO Listener] Culture: 
+[2022-07-12 10:27:52Z INFO Listener] UI Culture: 
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:52Z INFO Listener] Validating directory permissions for: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:52Z INFO CommandLineParser] Parse
+[2022-07-12 10:27:52Z INFO CommandLineParser] Parsing 3 args
+[2022-07-12 10:27:52Z INFO CommandLineParser] parsing argument
+[2022-07-12 10:27:52Z INFO CommandLineParser] HasArgs: False
+[2022-07-12 10:27:52Z INFO CommandLineParser] Adding Command: run
+[2022-07-12 10:27:52Z INFO CommandLineParser] parsing argument
+[2022-07-12 10:27:52Z INFO CommandLineParser] HasArgs: True
+[2022-07-12 10:27:52Z INFO CommandLineParser] arg: startuptype
+[2022-07-12 10:27:52Z INFO CommandLineParser] parsing argument
+[2022-07-12 10:27:52Z INFO CommandLineParser] HasArgs: True
+[2022-07-12 10:27:52Z INFO CommandLineParser] Adding option 'startuptype': 'service'
+[2022-07-12 10:27:52Z INFO Listener] Arguments parsed
+[2022-07-12 10:27:52Z INFO Runner] ExecuteCommand
+[2022-07-12 10:27:52Z INFO ConfigurationStore] currentAssemblyLocation: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin/Runner.Listener.dll
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:52Z INFO ConfigurationStore] binPath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:52Z INFO ConfigurationStore] RootFolder: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:52Z INFO HostContext] Well known config file 'Runner': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.runner'
+[2022-07-12 10:27:52Z INFO ConfigurationStore] ConfigFilePath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.runner
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:52Z INFO HostContext] Well known config file 'Credentials': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials'
+[2022-07-12 10:27:52Z INFO ConfigurationStore] CredFilePath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:52Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_migrated'
+[2022-07-12 10:27:52Z INFO ConfigurationStore] MigratedCredFilePath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_migrated
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:52Z INFO HostContext] Well known config file 'Service': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.service'
+[2022-07-12 10:27:52Z INFO ConfigurationStore] ServiceConfigFilePath: /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.service
+[2022-07-12 10:27:52Z INFO CommandSettings] Flag 'help': 'False'
+[2022-07-12 10:27:52Z INFO CommandSettings] Flag 'version': 'False'
+[2022-07-12 10:27:52Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-07-12 10:27:52Z INFO CommandSettings] Flag 'check': 'False'
+[2022-07-12 10:27:52Z INFO CommandSettings] Command 'configure': 'False'
+[2022-07-12 10:27:52Z INFO CommandSettings] Command 'remove': 'False'
+[2022-07-12 10:27:52Z INFO CommandSettings] Command 'warmup': 'False'
+[2022-07-12 10:27:52Z INFO ConfigurationManager] LoadSettings
+[2022-07-12 10:27:52Z INFO ConfigurationStore] IsConfigured()
+[2022-07-12 10:27:52Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-12 10:27:52Z INFO ConfigurationManager] Is configured: True
+[2022-07-12 10:27:52Z INFO ConfigurationStore] Read setting file: 300 chars
+[2022-07-12 10:27:52Z INFO ConfigurationManager] Settings Loaded
+[2022-07-12 10:27:52Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-07-12 10:27:52Z INFO ConfigurationStore] IsServiceConfigured: True
+[2022-07-12 10:27:52Z INFO CommandSettings] Command 'run': 'True'
+[2022-07-12 10:27:52Z INFO ConfigurationStore] IsConfigured()
+[2022-07-12 10:27:52Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-12 10:27:52Z INFO ConfigurationManager] Is configured: True
+[2022-07-12 10:27:52Z INFO Runner] Set runner startup type - Service
+[2022-07-12 10:27:52Z INFO CommandSettings] Flag 'once': 'False'
+[2022-07-12 10:27:52Z INFO CommandSettings] Flag 'once': 'False'
+[2022-07-12 10:27:52Z INFO Runner] RunAsync
+[2022-07-12 10:27:52Z INFO ConfigurationManager] LoadSettings
+[2022-07-12 10:27:52Z INFO ConfigurationStore] IsConfigured()
+[2022-07-12 10:27:52Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-12 10:27:52Z INFO ConfigurationManager] Is configured: True
+[2022-07-12 10:27:52Z INFO ConfigurationManager] Settings Loaded
+[2022-07-12 10:27:52Z INFO MessageListener] {
+  "AgentId": 22,
+  "AgentName": "belka-3-node-runner",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/AuYE7zpLwZz53yuqKqKnzQ0pIxqNa5w1iU0sGV5oFkgXPFr1Xe",
+  "GitHubUrl": "https://github.com/maciejmar/belka3",
+  "WorkFolder": "belka_3_work"
+}
+[2022-07-12 10:27:52Z INFO MessageListener] Loading Credentials
+[2022-07-12 10:27:52Z INFO ConfigurationStore] HasCredentials()
+[2022-07-12 10:27:52Z INFO ConfigurationStore] stored True
+[2022-07-12 10:27:52Z INFO CredentialManager] GetCredentialProvider
+[2022-07-12 10:27:52Z INFO CredentialManager] Creating type OAuth
+[2022-07-12 10:27:52Z INFO CredentialManager] Creating credential type: OAuth
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:27:52Z INFO HostContext] Well known directory 'Root': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner'
+[2022-07-12 10:27:52Z INFO HostContext] Well known config file 'RSACredentials': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams'
+[2022-07-12 10:27:52Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-12 10:27:52Z INFO MessageListener] Attempt to create session.
+[2022-07-12 10:27:52Z INFO MessageListener] Connecting to the Runner Server...
+[2022-07-12 10:27:52Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-07-12 10:27:52Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-12 10:27:52Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-07-12 10:27:52Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-12 10:27:52Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-07-12 10:27:52Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-12 10:27:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-12 10:27:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-12 10:27:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-12 10:27:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-12 10:27:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-12 10:27:53Z INFO MessageListener] VssConnection created
+[2022-07-12 10:27:53Z INFO Terminal] WRITE LINE: 
+[2022-07-12 10:27:53Z INFO Terminal] WRITE LINE: 
+[2022-07-12 10:27:53Z WARN GitHubActionsService] Authentication failed with status code 401.
+Transfer-Encoding: chunked
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 2e8ef389-01b4-4eed-9adb-0ddcbeea3e87
+ActivityId: 0a90de70-c276-415e-bb85-360b115635e4
+X-TFS-Session: 80a8c0fa-45ca-4c7d-a97a-6f8597145c08
+X-VSS-E2EID: 5fdd0710-615b-4882-bcf4-67694271dd8f
+X-VSS-SenderDeploymentId: d8e2ca4d-fc49-4fde-de7b-4a7ca9dd6aba
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 2A1E4488114A417295A8595D2648F4BE Ref B: VIEEDGE2307 Ref C: 2022-07-12T10:27:53Z
+Date: Tue, 12 Jul 2022 10:27:53 GMT
+
+[2022-07-12 10:27:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-12 10:27:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-12 10:27:54Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2022-07-12 10:27:54Z INFO MessageListener] Session created.
+[2022-07-12 10:27:54Z INFO Terminal] WRITE LINE: Current runner version: '2.294.0'
+[2022-07-12 10:27:54Z INFO Terminal] WRITE LINE: 2022-07-12 10:27:54Z: Listening for Jobs
+[2022-07-12 10:27:54Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2022-07-12 10:28:10Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/ubuntu/belkas/belka-3-node/belka3/actions-runner/.credentials_rsaparams
+[2022-07-12 10:28:10Z INFO MessageListener] Message '20' received from session '3a6dc072-21ce-4678-9ae6-4b3c4634fc0c'.
+[2022-07-12 10:28:10Z INFO Runner] Received job message of length 20666 from service, with hash 'f9924fba3450e9a4617266f5d2c90a6246b9506f464a4b86a13d2cb6a6e3ec3b'
+[2022-07-12 10:28:10Z INFO JobDispatcher] Job request 37 for plan 7fc1c872-64cd-4495-9256-26f6913f847f job c269f388-e93f-55df-e42c-8ad0a472b48b received.
+[2022-07-12 10:28:10Z INFO JobDispatcher] Pull OrchestrationId 7fc1c872-64cd-4495-9256-26f6913f847f.build._16_x from JWT claims
+[2022-07-12 10:28:10Z INFO Terminal] WRITE LINE: 2022-07-12 10:28:10Z: Running job: build (16.x)
+[2022-07-12 10:28:10Z INFO JobDispatcher] Start renew job request 37 for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-12 10:28:10Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:38:10
+[2022-07-12 10:28:10Z INFO HostContext] Well known directory 'Bin': '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper] Starting process:
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   File name: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin/Runner.Worker'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 107 110'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   Working directory: '/home/ubuntu/belkas/belka-3-node/belka3/actions-runner/bin'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2022-07-12 10:28:10Z INFO ProcessInvokerWrapper] Process started with process id 102315, waiting for process exit.
+[2022-07-12 10:28:10Z INFO JobDispatcher] Send job request message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-12 10:28:10Z INFO ProcessChannel] Sending message of length 20666, with hash 'f9924fba3450e9a4617266f5d2c90a6246b9506f464a4b86a13d2cb6a6e3ec3b'
+[2022-07-12 10:28:10Z INFO JobNotification] Entering JobStarted Notification
+[2022-07-12 10:28:10Z INFO JobNotification] Entering StartMonitor
+[2022-07-12 10:29:11Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:39:10
+[2022-07-12 10:30:11Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:40:11
+[2022-07-12 10:31:11Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:41:11
+[2022-07-12 10:32:11Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:42:11
+[2022-07-12 10:33:11Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:43:11
+[2022-07-12 10:34:12Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:44:11
+[2022-07-12 10:35:12Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:45:12
+[2022-07-12 10:36:12Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:46:12
+[2022-07-12 10:37:12Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:47:12
+[2022-07-12 10:38:12Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:48:12
+[2022-07-12 10:39:13Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:49:12
+[2022-07-12 10:40:13Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:50:13
+[2022-07-12 10:41:13Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:51:13
+[2022-07-12 10:42:13Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:52:13
+[2022-07-12 10:43:14Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:53:13
+[2022-07-12 10:44:14Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:54:14
+[2022-07-12 10:45:14Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:55:14
+[2022-07-12 10:46:14Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:56:14
+[2022-07-12 10:47:15Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:57:14
+[2022-07-12 10:48:15Z INFO JobDispatcher] Successfully renew job request 37, job is valid till 07/12/2022 10:58:15
+[2022-07-12 10:48:35Z INFO Terminal] WRITE LINE: Exiting...
+[2022-07-12 10:48:35Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-07-12 10:48:35Z INFO ConfigurationStore] IsServiceConfigured: True
+[2022-07-12 10:48:35Z INFO Runner] Received Ctrl-C signal, stop Runner.Listener and Runner.Worker.
+[2022-07-12 10:48:35Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2022-07-12 10:48:35Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/AuYE7zpLwZz53yuqKqKnzQ0pIxqNa5w1iU0sGV5oFkgXPFr1Xe/_apis/distributedtask/pools/1/messages?sessionId=3a6dc072-21ce-4678-9ae6-4b3c4634fc0c&lastMessageId=20 has been cancelled.
+[2022-07-12 10:48:35Z INFO MessageListener] Get next message has been cancelled.
+[2022-07-12 10:48:35Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2022-07-12 10:48:35Z INFO JobDispatcher] Ensure WorkerDispather for job c269f388-e93f-55df-e42c-8ad0a472b48b run to finish, cancel any running job.
+[2022-07-12 10:48:35Z INFO JobDispatcher] Send job cancellation message to worker for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-12 10:48:35Z INFO ProcessChannel] Sending message of length 0, with hash 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+[2022-07-12 10:48:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-12 10:48:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2022-07-12 10:48:49Z INFO ProcessInvokerWrapper] Finished process 102315 with exit code 102, and elapsed time 00:20:38.5938214.
+[2022-07-12 10:48:49Z INFO JobDispatcher] finish job request for job c269f388-e93f-55df-e42c-8ad0a472b48b with result: Canceled
+[2022-07-12 10:48:49Z INFO Terminal] WRITE LINE: 2022-07-12 10:48:49Z: Job build (16.x) completed with result: Canceled
+[2022-07-12 10:48:49Z INFO JobDispatcher] Stop renew job request for job c269f388-e93f-55df-e42c-8ad0a472b48b.
+[2022-07-12 10:48:49Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 37.
+[2022-07-12 10:48:49Z INFO JobNotification] Entering JobCompleted Notification
+[2022-07-12 10:48:49Z INFO JobNotification] Entering EndMonitor
+[2022-07-12 10:48:49Z INFO Listener] Runner execution been cancelled.

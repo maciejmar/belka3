@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "maciejmar/belka3",
+  "pipelineDirectory": "belka3",
+  "workspaceDirectory": "belka3/belka3",
+  "repositories": {
+    "maciejmar/belka3": {
+      "repositoryPath": "belka3/belka3",
+      "lastRunOn": "07/10/2022 08:57:34 +00:00"
+    }
+  },
+  "lastRunOn": "07/12/2022 11:17:07 +00:00"
+}
