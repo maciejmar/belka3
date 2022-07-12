@@ -1,0 +1,148 @@
+commit 6162fc73b656e970c2fc60e9d2a734c77a3da2d1
+Merge: bd16b93 57bbf4b
+Author: Ubuntu <ubuntu@vps-9f62e310.vps.ovh.net>
+Date:   Tue Jul 12 11:25:42 2022 +0000
+
+    Merge branch 'master' of https://github.com/maciejmar/belka3
+
+commit bd16b933649d610959d260218897ecc9e7daecbf
+Author: Ubuntu <ubuntu@vps-9f62e310.vps.ovh.net>
+Date:   Tue Jul 12 11:25:00 2022 +0000
+
+    8084 port
+
+commit 57bbf4bba368577807ea45cd62dd7ff4b09b3eb9
+Author: Maciej Marosz <48849533+maciejmar@users.noreply.github.com>
+Date:   Tue Jul 12 13:11:37 2022 +0200
+
+    Update server2.js
+
+commit ca15f78b04f90e77667d3e2357c14e6abdf4269d
+Author: Maciej Marosz <48849533+maciejmar@users.noreply.github.com>
+Date:   Sun Jul 10 12:24:48 2022 +0200
+
+    Update node.js.yml
+
+commit 4f40b20cefa75e2e8a1f7ca9383bddfa656176d9
+Author: Maciej Marosz <48849533+maciejmar@users.noreply.github.com>
+Date:   Sun Jul 10 12:21:24 2022 +0200
+
+    Update node.js.yml
+
+commit ef584d41d26ca72691a162e21e52fcfe1321bca5
+Author: Maciej Marosz <48849533+maciejmar@users.noreply.github.com>
+Date:   Sun Jul 10 10:50:55 2022 +0200
+
+    Update node.js.yml
+
+commit 45f91a772a59b4036d59494d3115e8c9d9b592be
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 13:10:43 2022 +0200
+
+    adding to a title some words
+
+commit 0107e0f2377ddb01cf6d6477bbe7ffdf887e1cb6
+Merge: 692825d 1a8b584
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 13:05:54 2022 +0200
+
+    Merge branch 'master' of https://github.com/maciejmar/belka3
+
+commit 692825dd4d34951cbc67c67263cfc656224c8a47
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 13:04:53 2022 +0200
+
+    changetitle in html file
+
+commit 1a8b584a82e91e910f78fd1d4efe01a2b0ecff2a
+Author: Maciej Marosz <48849533+maciejmar@users.noreply.github.com>
+Date:   Thu Jul 7 12:59:16 2022 +0200
+
+    Update node.js.yml
+
+commit 58c899814b035dd4a8e0bf127a7b5440b33e8f55
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 12:39:29 2022 +0200
+
+    changing tests from jest to mocha
+
+commit 1d18b7fe750211b732b3f725ba7a0c673c899b64
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 12:35:27 2022 +0200
+
+    adding word to title in html file
+
+commit 3d970e1702f957c45bb8a93d43489f495f299487
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 12:30:50 2022 +0200
+
+    changing to pl lang
+
+commit 6c9915b8eb185c9d04a85a4d9ff6431027596e7d
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 12:24:19 2022 +0200
+
+    adding jest as test engine
+
+commit 422e335e5b16ed29f4765b157a5333ce93d7540e
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 12:15:41 2022 +0200
+
+    deleting node_modules remotely
+
+commit e1a50235e0434a5582ce7dc64481d807ebaedcd4
+Merge: f82739e 997cc02
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 12:14:07 2022 +0200
+
+    Merge branch 'master' of https://github.com/maciejmar/belka3
+
+commit f82739e41a540a3154d2a10bcc694e831f8d90f4
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 12:05:53 2022 +0200
+
+    gitignore added
+
+commit 19af570daa55dd2b599ca96aeb0f0ce41cc43746
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 12:02:24 2022 +0200
+
+    changing port from 8080 to 8083
+
+commit 997cc02803de1f09de5232eb292368069ec684de
+Author: Maciej Marosz <48849533+maciejmar@users.noreply.github.com>
+Date:   Thu Jul 7 11:39:30 2022 +0200
+
+    Update node.js.yml
+
+commit 6051534ed28e8b3adaa052eeebd41e4aea8de1f1
+Author: Maciej Marosz <48849533+maciejmar@users.noreply.github.com>
+Date:   Thu Jul 7 11:38:27 2022 +0200
+
+    Create node.js.yml
+
+commit bc21023464d0b210f222bab5942d9427921fd469
+Author: mmarosz <maciej.marosz@external.t-mobile.pl>
+Date:   Thu Jul 7 01:03:39 2022 +0200
+
+    deleting node_modules probe again
+
+commit 62b487a0807de560cbcf9d97d2992dfe1b10cf4d
+Author: Maciej Marosz <48849533+maciejmar@users.noreply.github.com>
+Date:   Fri Dec 3 10:51:12 2021 +0100
+
+    update Read.me
+    
+    Description clearing what app's doing.
+
+commit c20cf78d905afb542cd0c61f83eb6c316aa4a5f3
+Author: Maciej Marosz <48849533+maciejmar@users.noreply.github.com>
+Date:   Wed Jun 16 08:57:52 2021 +0200
+
+    Create README.md
+
+commit 1da9adca7ac2fda3e84a1074be6f11faececf6ed
+Author: macmaro <mateminfo@gmail.com>
+Date:   Thu Apr 15 11:03:01 2021 +0200
+
+    first commit
